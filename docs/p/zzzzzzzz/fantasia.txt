@@ -1,0 +1,92 @@
+<!--. estrenos -->
+<div class="row mb-4">
+<div class="col-md-6 my-auto">
+<h4>Fantasía 2020</h4>
+</div>
+<div class="col-md-6 my-auto">
+
+</div>
+</div>
+
+
+
+
+<div class="row justify-content-center video-items" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}'>
+
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt6475714">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/b4/dd/90/b4dd908e-dc07-f7ff-da2c-cd424e1a7a7d/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt0805647">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/bb/40/91/bb4091d0-722f-5af1-e742-6d92cc5d55c2/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt10600398">
+<img width="509" height="286" src="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYVljwGQ74E0PQTp9ot7NN0lN-o4DUr6G5E6FzACVwsosiQWDV8Nm1MvTD6oe_Va5O_BUpxIvrqBv-3uB4YLFw0rK50qUX25eR0k6afm-GZ9kheC13O7hTplRXcCTw.jpg?r=2a5" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt10833270">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/AYI5J217PjoHIYCrgEh0dA/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt10324122">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/N9isdDe3s1xKk4rzSIUnWw/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt11681250">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/taGXXm3krKZ4jO83n5eThQ/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4844150">
+<img width="509" height="286" src="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXWWtxdGQhGw--2Og6irbu935CMVFoKYZBi-vipK_TA3NHSsXKY-WD_vfQK6Skjv-pO7ThHMPdqU5sTV-593pasJSc8pERR6mTGx5ze8tkNpKLhJ4UIewmteoKyysw.jpg?r=9c0" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4685762">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/f4/2e/9e/f42e9e3a-471c-5d8d-90c8-0516bddf56d6/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!--. estrenos -->

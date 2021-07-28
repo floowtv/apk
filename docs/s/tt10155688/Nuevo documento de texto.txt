@@ -1,0 +1,17 @@
+//vidembed.net/loadserver.php?id=MzQzNTU0
+https://hls5x.vidembed.net/load/hls/7OFY9ueXWWWCiT3tjC9i1A/1625128857/340224/75d51bebe8cda20dc5b5262f003a8d7b/ep.1.1618802587.m3u8
+https://hls4x.vidembed.net/load/hls/lCtg17WRoR-3Vr-fkYY2Dg/1625128923/341203/75d51bebe8cda20dc5b5262f003a8d7b/ep.2.1619421209.m3u8
+https://hls4x.vidembed.net/load/hls/CL6cclNXqFmeGba9iNRtIw/1625129027/341488/75d51bebe8cda20dc5b5262f003a8d7b/ep.3.1620011693.m3u8
+https://hls5x.vidembed.net/load/hls/u8aqqcj5JGQJzGvEDsfRYQ/1625129110/341839/75d51bebe8cda20dc5b5262f003a8d7b/ep.4.1620618807.m3u8
+https://hls3x.vidembed.net/load/hls/IHyHU1YhhlJDwd-uUI-ZsA/1625129189/342377/75d51bebe8cda20dc5b5262f003a8d7b/ep.5.1621255803.m3u8
+https://hls4x.vidembed.net/load/hls/ZiqAmcBCemm8r7q709CVgA/1625129250/342378/75d51bebe8cda20dc5b5262f003a8d7b/ep.6.1621922803.m3u8
+https://hls5x.vidembed.net/load/hls/8rBSBwDloPBp4xrfLD6brg/1625129322/343554/75d51bebe8cda20dc5b5262f003a8d7b/ep.7.1622434833.m3u8
+
+
+
+
+
+
+
+
+

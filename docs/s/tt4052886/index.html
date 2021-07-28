@@ -1,0 +1,436 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Netflix LITE</title>
+<link rel="icon" href="../../assets/images/thumbnail.png">
+<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Fira+Sans+Condensed%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7COpen+Sans%3A300%2C400%2C600%2C700%2C800'>
+<link rel="stylesheet" href='../../assets/css/default.css'>
+<link rel="stylesheet" href='../../assets/css/plugins.css'>
+<link rel="stylesheet" href='../../assets/css/style.css'>
+<link rel="stylesheet" href='../../assets/css/color.css'>
+<link id="template-color" rel="stylesheet" href='../../assets/css/dark.css'>
+<link href="../../assets/css/video-js.css" rel="stylesheet" />
+</head>
+<body class="single-video">
+
+
+<div id="preloader">
+<div class="spinner">
+<div class="uil-ripple-css">
+<div></div>
+<div></div>
+</div>
+</div>
+</div>
+<header class="site-header fixed-top">
+<div class="container-fluid">
+<div class="row justify-content-between">
+<div class="col-xl-2 col-lg-2 my-auto d-none d-lg-block">
+<div class="d-flex">
+<a href="#" class="sidebar-toggle">
+<i class="far fa-bars"></i>
+</a>
+<div class="logo my-auto">
+<a href="../../index.html" class="custom-logo-link">
+
+
+<svg class="custom-logo" width="88px" height="32px" viewBox="0 0 111 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#e50914" d="M105.062 14.28L111 30c-1.75-.25-3.499-.563-5.28-.845l-3.345-8.686-3.437 7.969c-1.687-.282-3.344-.376-5.031-.595l6.031-13.75L94.468 0h5.063l3.062 7.874L105.875 0h5.124l-5.937 14.28zM90.47 0h-4.594v27.25c1.5.094 3.062.156 4.594.343V0zm-8.563 26.937c-4.187-.281-8.375-.53-12.656-.625V0h4.687v21.875c2.688.062 5.375.28 7.969.405v4.657zM64.25 10.657v4.687h-6.406V26H53.22V0h13.125v4.687h-8.5v5.97h6.406zm-18.906-5.97V26.25c-1.563 0-3.156 0-4.688.062V4.687h-4.844V0h14.406v4.687h-4.874zM30.75 15.593c-2.062 0-4.5 0-6.25.095v6.968c2.75-.188 5.5-.406 8.281-.5v4.5l-12.968 1.032V0H32.78v4.687H24.5V11c1.813 0 4.594-.094 6.25-.094v4.688zM4.78 12.968v16.375C3.094 29.531 1.593 29.75 0 30V0h4.469l6.093 17.032V0h4.688v28.062c-1.656.282-3.344.376-5.125.625L4.78 12.968z"></path>
+                    </svg>
+
+
+</a> </div>
+</div>
+</div>
+<div class="col-xl-7 col-lg-7 my-auto d-none d-xl-block">
+<form class="ajax-search-form" action="#">
+<input type="text" name="s" class="keyword" placeholder="Buscar">
+<button type="submit"><i class="fa fa-search"></i></button>
+<ul class="datafetch"></ul>
+</form>
+</div>
+
+<div class="col-xl-2 col-lg-2 my-auto">
+<div class="d-flex">
+
+
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="off-canvas-menu-bar">
+<div class="pl-30 pr-30">
+<div class="row">
+<div class="col-1 my-auto">
+<div style="margin-top:-5px;" class="mobile-nav-toggler"><span class="fas fa-bars"></span></div>
+</div>
+
+<div class="col-7 my-auto">
+<a href="../../index.html" class="custom-logo-link" rel="home" aria-current="page">
+
+<svg class="custom-logo" width="104px" height="38px" viewBox="0 0 111 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#e50914" d="M105.062 14.28L111 30c-1.75-.25-3.499-.563-5.28-.845l-3.345-8.686-3.437 7.969c-1.687-.282-3.344-.376-5.031-.595l6.031-13.75L94.468 0h5.063l3.062 7.874L105.875 0h5.124l-5.937 14.28zM90.47 0h-4.594v27.25c1.5.094 3.062.156 4.594.343V0zm-8.563 26.937c-4.187-.281-8.375-.53-12.656-.625V0h4.687v21.875c2.688.062 5.375.28 7.969.405v4.657zM64.25 10.657v4.687h-6.406V26H53.22V0h13.125v4.687h-8.5v5.97h6.406zm-18.906-5.97V26.25c-1.563 0-3.156 0-4.688.062V4.687h-4.844V0h14.406v4.687h-4.874zM30.75 15.593c-2.062 0-4.5 0-6.25.095v6.968c2.75-.188 5.5-.406 8.281-.5v4.5l-12.968 1.032V0H32.78v4.687H24.5V11c1.813 0 4.594-.094 6.25-.094v4.688zM4.78 12.968v16.375C3.094 29.531 1.593 29.75 0 30V0h4.469l6.093 17.032V0h4.688v28.062c-1.656.282-3.344.376-5.125.625L4.78 12.968z"></path>
+                    </svg></a> </div>
+
+
+
+</div>
+</div>
+</div>
+<div class="off-canvas-menu">
+<div class="menu-backdrop"></div>
+<i class="close-btn fa fa-close"></i>
+<nav class="mobile-nav">
+
+<ul class="navigation">
+</ul>
+</nav>
+</div>
+<div class="container-fluid p-0">
+<div class="d-flex topspace-90">
+<div class="sidebar-menu open">
+<nav class="desktop-menu">
+<ul class="menu">
+<li class="menu-item current-menu-item"><a href="../../index.html"><span>Inicio</span></a></li>
+<li class="menu-item"><a href="p/index.html"><span>Películas</span></a></li>
+<li class="menu-item"><a href="s/index.html"><span>Series</span></a></li>
+
+
+<li class="menu-item"><a href="p/acción"><span>Acción</span></a></li>
+<li class="menu-item"><a href="p/animación"><span>Animación</span></a></li>
+<li class="menu-item"><a href="p/aventura"><span>Aventura</span></a></li>
+<li class="menu-item"><a href="p/ciencia-ficcion"><span>Ciencia Ficción</span></a></li>
+<li class="menu-item"><a href="p/comedia"><span>Comedia</span></a></li>
+<li class="menu-item"><a href="p/documental"><span>Documental</span></a></li>
+<li class="menu-item"><a href="p/fantasia"><span>Fantasía</span></a></li>
+<li class="menu-item"><a href="p/romance"><span>Romance</span></a></li>
+<li class="menu-item"><a href="p/suspenso"><span>Suspenso</span></a></li>
+<li class="menu-item"><a href="p/terror"><span>Terror</span></a></li>
+<li class="menu-item"><a href="p/otros"><span>Otros</span></a></li>
+</ul>
+</nav>
+
+
+
+
+
+
+
+
+</div>
+<div class="main-container">
+<section class="bg-gray pt-4 pr-15 pl-15">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xl-8 col-md-7">
+<style>
+.video-js-responsive-container.vjs-hd {
+    padding-top: 56.25%;
+}
+.video-js-responsive-container.vjs-sd {
+    padding-top: 75%;
+}
+.video-js-responsive-container {
+    width: 100%;
+    position: relative;
+}
+.video-js-responsive-container .video-js {
+    height: 100% !important; 
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+</style>
+<div class="video-js-responsive-container vjs-hd">
+ <video
+    id="my-video" crossorigin="anonymous"
+    class="video-js vjs-default-skin vjs-big-play-centered"
+    controls
+    preload="auto"
+  
+
+    poster="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABT9xbq6aVBLIm4rfEnQvMfZ0N46wl1mAz-VZW07ASLtP2vVogFppgpoUpvQo9IAJhsvlLY9HF8UaX_ZaW1yLqLzT14hZQj0K_C2hpsHTURUtk1XtWG7IvjgbKrN9Ia4XYAudsnMdg7yz4LG2d5szatfqt1Paew.jpg?r=472"
+    data-setup="{}"
+  >
+    <source src="" type="application/x-mpegURL" />
+    
+
+
+<track kind="captions" src="s01e01.vtt" label="English" default/></track>
+
+
+
+<p class="vjs-no-js"></p>
+  </video>
+
+
+
+<script>
+let tracks = player.textTracks();
+
+for (let i = 0; i < tracks.length; i++) {
+  let track = tracks[i];
+
+  // find the captions track that's in english
+  if (track.kind === 'captions' && track.language === 'en') {
+    track.mode = 'showing';
+  }
+}
+</script>
+
+
+
+</div>
+
+
+
+
+<div class="container-fluid">
+<div class="row mt-15 mb-15">
+<div class="col-sm-6 my-auto">
+
+</div>
+
+</div>
+</div>
+
+
+
+<div class="entry-content">
+<h3 class="video-entry-title">Lucifer (2016-)</h3>
+<p>
+La serie se centrará en Lucifer (Tom Ellis) quien, aburrido e infeliz como el Señor del Infierno, dimite de su trono y abandona su reino para trasladarse a la ciudad de Los Angeles y abrir un lujoso piano-bar llamado Lux. Una vez allí ayudará a la policía a castigar a los más peligrosos criminales de la ciudad.
+
+
+
+
+
+</p>
+
+
+
+
+
+
+<div class="wp-block-spacer" aria-hidden="true"></div>
+</div>
+
+
+<nav class="navigation post-navigation" role="navigation" aria-label="Posts">
+<h2 class="screen-reader-text">Post navigation</h2>
+ <div class="nav-links">
+<a class="viewtube-btn  mt-30" href="" tabindex="0">Temporada 1</a>
+</div>
+</nav>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<div class="col-xl-4 col-md-5">
+
+<div id="viewtube_related_videos-2" class="widget widget-video widget_viewtube_related_videos">
+<ul class="sidebar-related-video">
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/aSl1ASgOlNkukh0kalKCvGKZeb4.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+1 - Piloto
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/ck8mSXXijr8xIXNqn2hbx4b2HKj.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+2 - Lucifer, quédate. Buen diablo
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/eTRQGrNXhg3t1Z3dhNLOsGxomxm.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+3 - El aspirante a príncipe de la oscuridad
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/jT6UcjnRP1MH8zUf0zL7NFGqhNQ.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+4 - Cosas de hombres
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/nrRGeYit3Tvr2NocDmKEA5bH9sz.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+5 - Dulces patadas
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/iCPIYG06s4rEUAffTI7D1xuVPvy.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+6 - Hijo favorito
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/3QkYv78ZlxYf54sLO71xYnoqzMr.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+7 - Copiloto
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/kCvPxVQ0OLyQG7VwPOzHTHGsbKV.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+8 - ¿Y tú, Doctor?
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/guWoA5SLNMVMo6J3vaZSMIEGyXh.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+9 - Un sacerdote entra en un bar
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/aqCLf3sbEvGQfLlKg1cYccu1hYK.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+10 - Explosiones
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/m0EeNM6XyMb2gMKF1b6vyFoaTND.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+11 - Santo Lucifer
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/jycEjP6R7cd23FasOdNp61d8Xk1.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+12 - #EquipoLucifer
+
+</a></p>
+</div></li>
+
+
+<li><div class="related-video-thumb">
+<a href="">
+<img src="https://www.themoviedb.org/t/p/w227_and_h127_bestv2/fUOlgpJgR9GBHBvLqad0zZUk0aO.jpg" alt=""> </a>
+</div>
+<div class="related-video-content">
+<p><a href="">
+13 - Llévame de vuelta al infierno
+
+</a></p>
+</div></li>
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+
+
+<div id="backtotop" style="display: block;"><i class="fal fa-lg fa-arrow-up"></i></div>
+<script src='../../assets/js/plugins.js'></script>
+<script src='../../assets/js/main.js'></script>
+<script src="../../assets/js/video.min.js"></script>
+</body>
+</html>

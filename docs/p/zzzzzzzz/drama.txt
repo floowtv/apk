@@ -1,0 +1,190 @@
+<!--. estrenos -->
+<div class="row mb-4">
+<div class="col-md-6 my-auto">
+<h4>Drama 2020</h4>
+</div>
+<div class="col-md-6 my-auto">
+
+</div>
+</div>
+
+
+
+
+<div class="row justify-content-center video-items" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}'>
+
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt8784956">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video114/v4/e6/c0/92/e6c0927e-3a17-aeba-c1e3-9e9c911ceafc/pr_source.png/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt1634106">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/04/86/14/04861481-2f5d-4f4d-0ad4-2b82569b1a3b/SPE_BLOODSHOT_TH_PREORDER_US_ARTWORK_EN_EN-US_3840x2160_259FM5000002J1.png/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt1838556">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/43/b5/ef/43b5ef2a-f458-1a53-2a88-fd5b53a8ec36/Honest_Thief_3840x2160_CoverArt.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt10362466">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/b2/ee/f7/b2eef730-2d33-484d-c39b-f5303207f4f1/pr_source.png/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt9711106">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video113/v4/26/c1/e4/26c1e447-9f85-8589-e397-9185c83f5403/88665_MLNA_Dragonheart_Vengeance_3840x2160.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt6222118">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video114/v4/81/e2/8f/81e28f89-a65d-7770-e95d-5809f3971433/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt6187134">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/bf/6c/c9/bf6cc9a0-2283-455b-2713-2ce6ff9cfbf7/pr_source.jpg/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt7711170">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video114/v4/9f/01/03/9f01036a-9eda-0332-6277-abc854c5a256/pr_source.png/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt6598238">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/37/39/f0/3739f0df-dbb6-8e8d-06a4-f16c2d5dc5f8/SPE_LIFE_IN_A_YEAR_TH_MLF_PRE_ORDER_WW_ARTWORK_EN_3840x2160_2E22FO00000Z6T.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt7456312">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/MRMpT7bydPF6aAn_Hoqvlw/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt12792418">
+<img width="509" height="286" src="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWXfK8ttM3_pH5AflcGnBR2_LmfEuhH_aD6VF45qgtvG5DQr0Rv1NkdOVoEaecAN6TyH11NbLpd8UNwUfAlBnl4lqecrJ4HlGFqtVlg_oB6KTFP4yHkTU6rqH9wTJg.jpg?r=dbd" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt10767168">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/3a/56/f7/3a56f7cf-be32-01ca-8786-37394dec490c/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt5843876">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/PMWzrVK1vKrBZuS9hVjmpg/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt5616176">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/60/f4/f8/60f4f852-2240-dff1-927c-69c60cda3567/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt11777040">
+<img width="509" height="286" src="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbW5cGc0GFtP9MUTTWi0VQHSVvoDOQJZ45LeQ1e--jc82jiBpub1SJQF57-HEhHU5VxFPga89lZ12giGVC4wOLmI0Zj_mzoJlslZG-R54KsQI82GxuIT2kfBbMHQvQ.jpg?r=e3f" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt6803046">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/smCyY3Tv42TgcEKKRF8Y7A/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4685762">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/f4/2e/9e/f42e9e3a-471c-5d8d-90c8-0516bddf56d6/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt7737786">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video114/v4/b6/01/bf/b601bf5c-8ba5-f2d4-5ab6-7df4571719f9/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt10065694">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/a4/ee/1f/a4ee1fca-9e49-424e-c183-2ffae6707c43/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+
+
+</div>
+<!--. estrenos -->
