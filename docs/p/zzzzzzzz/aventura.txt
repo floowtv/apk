@@ -1,7 +1,7 @@
 <!--. estrenos -->
 <div class="row mb-4">
 <div class="col-md-6 my-auto">
-<h4>Aventura 2020</h4>
+<h4>Aventura 2016</h4>
 </div>
 <div class="col-md-6 my-auto">
 
@@ -12,115 +12,36 @@
 
 
 <div class="row justify-content-center video-items" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}'>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3748528">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/36/51/62/36516252-45e4-30dc-6d2d-12d5f2ca55b6/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt1386697">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/d5/09/35/d5093599-eabd-034e-c75d-c13017bac148/SuicideSquad_H_DD_KA_TT_3840x2160_300dpi_MX.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div><div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3183660">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video123/v4/fb/c4/ab/fbc4abbf-eee1-7dd0-5cdd-5289b833396c/FantasticBeasts_H_DD_KA_TT_3840x2160_300dpi_MX.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
 
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt2850386">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video124/v4/8a/b6/37/8ab637a6-e35c-4dab-0387-acab8617451a/contsched.iilegqhe.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt6475714">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/b4/dd/90/b4dd908e-dc07-f7ff-da2c-cd424e1a7a7d/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9695722">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video114/v4/a4/67/50/a46750b2-5674-a3de-7f38-ac0d53665ea9/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt3794354">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/6a/92/67/6a9267c7-ffd2-4b25-6c83-b9f7f746a18f/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt10324122">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/N9isdDe3s1xKk4rzSIUnWw/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt0805647">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/bb/40/91/bb4091d0-722f-5af1-e742-6d92cc5d55c2/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9387250">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video124/v4/2c/9c/6f/2c9c6f29-2a37-7ddb-1947-b784f35fd732/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt4823776">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/b0/69/93/b06993ea-2295-4cca-1a13-3fba8df719b8/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9580138">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video114/v4/1b/8c/a0/1b8ca07d-fa83-b3b7-7b70-f9ae67076d59/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9711106">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video113/v4/26/c1/e4/26c1e447-9f85-8589-e397-9185c83f5403/88665_MLNA_Dragonheart_Vengeance_3840x2160.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt8318284">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video113/v4/32/d9/c7/32d9c78f-83c7-f0ae-0ff9-a135df9116ab/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt12745164">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video114/v4/b1/b5/07/b1b50728-df94-548d-c493-6e92737c90f7/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
+
+
+
 
 
 

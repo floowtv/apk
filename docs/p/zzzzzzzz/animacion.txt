@@ -1,7 +1,7 @@
 <!--. estrenos -->
 <div class="row mb-4">
 <div class="col-md-6 my-auto">
-<h4>Animación 2020</h4>
+<h4>Animación 2016</h4>
 </div>
 <div class="col-md-6 my-auto">
 
@@ -13,24 +13,20 @@
 
 <div class="row justify-content-center video-items" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}'>
 
+
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt4823776">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/b0/69/93/b06993ea-2295-4cca-1a13-3fba8df719b8/pr_source.lsr/509x286.jpg" alt="">
+<a href="../../p/tt3470600">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/B0bhLEzpwzutmik9sc9D2g/509x286.jpg" alt="">
 </a>
 </div>
 </div>
 </div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9580138">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video114/v4/1b/8c/a0/1b8ca07d-fa83-b3b7-7b70-f9ae67076d59/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
+
+
+
+
 
 
 </div>

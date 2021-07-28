@@ -1,0 +1,161 @@
+git init
+
+git add .
+
+git commit -m "f"
+
+
+git push origin gh-pages --force
+
+BORRAR CREDENCIALES DE WINDOWS PARA CONECTARSE A OTRA CUENTA
+
+git config --global --replace-all user.name "floowtv"
+git config --global --replace-all user.mail "floowlatam@gmail.com"
+
+error:failed to push some refs to
+
+git config --global --edit
+
+
+git remote set-url origin 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@github.com/floowtv/app.git
+
+
+--------------------------
+
+git config --global user.email "floowlatam@gmail.com"
+
+git config --global user.email floowlatam@gmail.com
+
+git config --global user.name "floowtv"
+
+git remote add origin https://github.com/floowtv/app.git
+
+-------------------------
+git remote add origin https://github.com/floowtv/app.git
+
+
+git config --global user.email "floowlatam@gmail.com"
+
+
+git remote add origin https://github.com/floowtv/app.git
+
+-------------------------
+
+git pull https://github.com/floowtv/app.git
+
+git remote -v
+
+git remote add origin git@github.com:floowtv/app.git
+
+
+git checkout -b gh-pages
+git checkouth master
+
+
+git config --global user.name floowtv
+
+git config --global --list
+git clone https://github.com/floowtv/app.git
+
+git checkout master
+
+git checkout gh-pages
+
+git push origin master --force
+-
+git push origin gh-pages --force
+
+git remote set-url origin https://github.com/floowtv/app.git
+
+git remote set-url origin https://github.com/floowtv/app.git
+
+
+
+
+
+https://github.com/floowtv/app.git
+
+
+https://github.com/floowtv/app.git
+
+git status
+
+git branch master
+git branch gh-pages
+
+----------------------------------------
+SOLUCION
+
+git remote update
+git fetch 
+git checkout --track origin/gh-pages
+----------------------------------------
+
+Metodología cuando empiezas git.
+
+Git status -> Mirar si tienes modificaciones tuyas y si existe algún pull o push
+Git fetch -> Por si acaso tus ramas no se han actualizado correctamente, esto NO actualiza los ficheros de las ramas, sólo el estado de esa rama
+Git status -> Para verificar de nuevo modificaciones, pull y pushs
+Git pull -> Ahora sí descargas las actualizaciones
+Git add/commit/... -> Ahora guardas tus modificaciones
+Git status -> Miras que siga sin necesitar un pull, por si las moscas
+Git push -> Subes tus datos
+Git status -> Compruebas que está todo correctamente
+Y ya por manía puedes hacer un:
+
+Git log -> Para comprobar que está correctamente comiteado lo que has pusheado
+Para salir de Git log, pulsa "Q"
+
+Conforme pase el tiempo te acostumbrarás
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

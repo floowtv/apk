@@ -1,7 +1,7 @@
 <!--. estrenos -->
 <div class="row mb-4">
 <div class="col-md-6 my-auto">
-<h4>Ciencia Ficción 2020</h4>
+<h4>Ciencia Ficción 2016</h4>
 </div>
 <div class="col-md-6 my-auto">
 
@@ -12,98 +12,19 @@
 
 
 <div class="row justify-content-center video-items" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}'>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3748528">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/36/51/62/36516252-45e4-30dc-6d2d-12d5f2ca55b6/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
 
 
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9820556">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video124/v4/f5/49/b9/f549b9f2-3480-2a82-e8e8-031780a53bc8/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt1634106">
-<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/04/86/14/04861481-2f5d-4f4d-0ad4-2b82569b1a3b/SPE_BLOODSHOT_TH_PREORDER_US_ARTWORK_EN_EN-US_3840x2160_259FM5000002J1.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9624766">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video114/v4/2a/e7/1a/2ae71a83-6eae-0216-3201-0939158f6af0/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt6723592">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/LqY29fov4GSPRj8qQJ_vEg/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>	
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9387250">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video124/v4/2c/9c/6f/2c9c6f29-2a37-7ddb-1947-b784f35fd732/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt5774060">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/2f/b1/71/2fb171e6-6d9c-53ca-ed18-6ff4df28e964/Underwater_CoverArt_3840x2160.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt11905962">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video114/v4/73/8c/98/738c982b-fe39-1e22-c10b-d506646a37d6/IFCENT_SF30380-en-US_16x9.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt6803046">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/smCyY3Tv42TgcEKKRF8Y7A/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt4205718">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/40/bd/eb/40bdebc6-ad5d-4639-5eea-30e4a0d95d0d/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt11946300">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/ef/dc/a0/efdca06d-45b8-68f3-32a7-7bb783ce0bf1/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
+
+
 
 
 </div>
