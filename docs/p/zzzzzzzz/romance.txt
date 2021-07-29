@@ -1,7 +1,7 @@
 <!--. estrenos -->
 <div class="row mb-4">
 <div class="col-md-6 my-auto">
-<h4>Romance 2020</h4>
+<h4>Romance 2016</h4>
 </div>
 <div class="col-md-6 my-auto">
 
@@ -12,61 +12,62 @@
 
 
 <div class="row justify-content-center video-items" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}'>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt2674426">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video114/v4/3a/4d/7f/3a4d7f62-b4f2-e586-7dad-107558f1bdfc/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt1355644">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/vMKGUwV9I46ERHxShL7b8Q/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3640424">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video123/v4/b9/af/32/b9af3223-e167-0881-3235-3bc2f3e10362/contsched.epyzfjen.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4669986">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video123/v4/52/0c/36/520c36f2-6a98-1364-de5c-368826c164c1/1171874704-WW-AMP_SF.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4682786">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/71/9e/ec/719eec6b-6ed6-1a3d-e1e2-7ee1d8cfe9bd/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
 
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt10362466">
-<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/b2/ee/f7/b2eef730-2d33-484d-c39b-f5303207f4f1/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt6598238">
-<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/37/39/f0/3739f0df-dbb6-8e8d-06a4-f16c2d5dc5f8/SPE_LIFE_IN_A_YEAR_TH_MLF_PRE_ORDER_WW_ARTWORK_EN_3840x2160_2E22FO00000Z6T.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt5843876">
-<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/PMWzrVK1vKrBZuS9hVjmpg/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt5616176">
-<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/60/f4/f8/60f4f852-2240-dff1-927c-69c60cda3567/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9519642">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/d9/f3/43/d9f343e4-810f-baf2-0e1c-fa75dde1ec30/IT106019_artwork_169_WW.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9784456">
-<img width="509" height="286" src="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYiSGZkLyyLS6E-1mDnTc-lcYlbLQnj3DNVu2GargUA1PpZXw_kc9A10nSVg9QqnYLzKBMva7WOr2pR5fmalqWim9k0yUFIFClzB8Bp13np-mFpZeDio3SAOaoYt4w.jpg?r=941" alt="">
-</a>
-</div>
-</div>
-</div>
+
+
+
+
+
+
+
+
+
+
 
 
 

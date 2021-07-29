@@ -30,7 +30,87 @@
 </div>
 </div>
 </div>
-
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt1211837">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video114/v4/fd/1e/21/fd1e2149-99ad-16e7-475b-1c64512ac17a/DIS_DOCTOR_WW_ARTWORK_EN-US_3840x2160_1MNZCS000000CI.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt5311514">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/lZoj1iiFsCQOddpU1gfI7g/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt2404233">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/aeUSEGTzFLWFxXkJzlw51A/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3040964">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/O-dPalGrJ3PgQqts_A0Qog/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt0803096">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/slPgCmChGxCwwE_qsSXdWw/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt2034800">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video114/v4/b0/08/3e/b0083e20-2e19-c4b9-7eea-d62821145477/1201087642-US-AMP_SF.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt1289401">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/zESVy5BSgOR9OkFjjQlJ_A/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3717252">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video114/v4/61/28/e5/6128e56c-f7c5-7c56-9676-ff6354b195a6/1189720258-WW-AMP_SF.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4731136">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/vVygkPUjWKD-6klhvXm7dQ/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
 
 
 

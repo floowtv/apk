@@ -1,7 +1,7 @@
 <!--. estrenos -->
 <div class="row mb-4">
 <div class="col-md-6 my-auto">
-<h4>Suspenso 2020</h4>
+<h4>Suspenso 2016</h4>
 </div>
 <div class="col-md-6 my-auto">
 
@@ -12,151 +12,174 @@
 
 
 <div class="row justify-content-center video-items" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}'>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4857264">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/a0/ad/d2/a0add281-4afa-f734-2af5-d4bcd86d53cc/1190143686-WW-AMP_SF.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt5700672">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/ec/0a/6a/ec0a6a89-6145-5251-6450-56a299536fe7/1167528557-WW-AMP_SF.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4016934">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/ZjKA4s-3idROK2UCSi5x3Q/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4550098">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video123/v4/00/e7/26/00e72644-b93e-9777-55c7-c3512865b8b7/1178216312-WW-AMP_SF.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4196776">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/59/7a/82/597a82a0-b687-a113-8813-700c53da730e/JasonBourne_3840x2160_CoverArt.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4160708">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video113/v4/9e/e8/c6/9ee8c6d3-eb68-61aa-4010-369e2ff4280a/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3393786">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/74/10/dd/7410dd95-7dea-38ae-fe2e-8f5da7db1aa1/PAR_JACK_REACHER_NEVERGOBACK_WW_ARTWORK_EN_3840x2160_1MDSK3000000CN.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt1974419">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video123/v4/c1/a0/c8/c1a0c898-dd52-dc76-2781-acc458ce5afc/1126974503-WW-AMP_SF.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4172430">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/be/07/7c/be077c4b-4c05-c1d9-4e80-dbe6ffe9b16c/PAR_13_HOURS_WW_ARTWORK_EN_2000x3000_1MBOOS000000CN.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3631112">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/d3HqAgx4KdaAOowsIUjT5w/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4334266">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/8a/bc/55/8abc551a-0851-b236-c067-fa2827488d41/1226598945-WW-AMP_SF.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt4443658">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/f6/9e/37/f69e3713-418c-5b16-8d96-6fb97888bbd4/1278845064-WW-AMP_SF.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3065204">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/56/ee/05/56ee058a-c0d6-7248-a00a-ba2682064594/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3014866">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video124/v4/a5/57/f4/a557f4d0-e17d-5df2-78e6-b09415869041/Criminal_en-US_3840x2160_CoverArt_1099240751.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt2649554">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/63/b4/24/63b42447-0e97-ecac-9669-eab90b9e5efb/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt5022702">
+<img width="509" height="286" src="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUvXtwLUnfID_qCNM95YKcO4lkny-IvY_SMqpscVOsSqURHibxt6WlHyiqB9Trs62P5Z7FKj_6tQpCMW_AKJgCBdSUPC.jpg?r=251" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3289956">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/vyXBgZIcZMymNdRQfbFsuA/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt3300542">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/aa/48/86/aa4886b3-aa83-dbbb-4f4c-cc18e07c6ebf/1083794877-WW-AMP_SF.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
 
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt8936646">
-<img width="509" height="286" src="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeiD_xEVF7vl4ImYydVhTqjI2sWZRY4y_3ZvW74f2_XFjrKOJuWYChTrZYHnU4jYufL94povBrzvqS_Cuy4rvaHCzRxvaX9mN3vao4jANJxeKP7OVbJAflt9n8JImg.jpg?r=08e" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt6723592">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/LqY29fov4GSPRj8qQJ_vEg/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt4682266">
-<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video114/v4/fb/a4/c6/fba4c664-a780-06d3-1703-ca9433992ae2/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt8850222">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/f6/47/ef/f647ef8c-4c46-078f-5a03-a8699ac8e4c1/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt9624766">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video114/v4/2a/e7/1a/2ae71a83-6eae-0216-3201-0939158f6af0/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt6222118">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video114/v4/81/e2/8f/81e28f89-a65d-7770-e95d-5809f3971433/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt7711170">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video114/v4/9f/01/03/9f01036a-9eda-0332-6277-abc854c5a256/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt8535180">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/f9/26/69/f92669ea-dcaf-27ce-e93a-4d307c37a9c7/artwork-WW_poster_3840x2160.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt7456312">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/MRMpT7bydPF6aAn_Hoqvlw/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt7134096">
-<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/e9/eb/8c/e9eb8cc2-25f0-aea4-95e5-8431e1c34906/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt6803046">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/smCyY3Tv42TgcEKKRF8Y7A/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt8109470">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/f9/5a/67/f95a67ab-3209-4eeb-abf7-6e6140ca635a/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt10309552">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/ab/27/94/ab279443-c2c7-62bc-264f-70a29e5a60f6/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt7737786">
-<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video114/v4/b6/01/bf/b601bf5c-8ba5-f2d4-5ab6-7df4571719f9/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt6902676">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/d6/37/8f/d6378fc2-1200-77b3-282a-577150024cbb/pr_source.png/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
-<div class="col-xl-8">
-<div class="video-item-card">
-<div class="video-thumb">
-<a href="../../p/tt10065694">
-<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/a4/ee/1f/a4ee1fca-9e49-424e-c183-2ffae6707c43/pr_source.lsr/509x286.jpg" alt="">
-</a>
-</div>
-</div>
-</div>
+
+
+
+
+
 
 
 </div>
