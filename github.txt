@@ -2,7 +2,7 @@ git init
 
 git add .
 
-git commit -m "f00"
+git commit -m "f01"
 
 
 git push origin gh-pages --force
