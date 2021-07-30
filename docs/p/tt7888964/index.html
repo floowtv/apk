@@ -37,7 +37,7 @@
 <a href="../../index.html" class="custom-logo-link">
 
 
-<img class="custom-logo" width="130px"  src="https://erpsur.github.io/soft/ntx/img/logo-app.png">
+<img class="custom-logo" width="130px"  src="https://floowtv.github.io/apk/docs/img/logo-app.png">
 
 
 
@@ -72,7 +72,7 @@
 <div class="col-7 my-auto">
 <a href="../../index.html" rel="home" aria-current="page">
 
-<img src="https://erpsur.github.io/soft/ntx/img/logo-app.png" width="130px" class=""></a> </div>
+<img src="https://floowtv.github.io/apk/docs/img/logo-app.png" width="130px" class=""></a> </div>
 
 
 
@@ -118,80 +118,65 @@
 
 
 <div class="main-container">
-<section class="bg-gray pt-4 pr-15 pl-15">
-<div class="container-fluid">
-<div class="row">
-<div class="slick-list draggable">
-
 
 
 
 
 <style>
-.video-js-responsive-container.vjs-hd {
-    padding-top: 56.25%;
+.containervideo {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+ 
+  padding-top: 58.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
-.video-js-responsive-container.vjs-sd {
-    padding-top: 75%;
-}
-.video-js-responsive-container {
-    width: 100%;
-    position: relative;
-}
-.video-js-responsive-container .video-js {
-    height: 100% !important; 
-    width: 100% !important;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
 </style>
-<div class="video-js-responsive-container vjs-hd">
- <video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls  preload="auto"
-    poster="https://is5-ssl.mzstatic.com/image/thumb/Video115/v4/c2/3d/7b/c23d7b6e-045f-b6f5-e572-55c9b9bc55b3/pr_source.lsr/509x286.jpg"
-    data-setup="{}">
-
-<source src="https://hls1x.vidcloud9.com/load/hls/_U5_V31WMBt02drNNjUfVg/1627096908/339510/db49473d68ba5029d1363b2a3c65baa3/ep.0.1625295517.m3u8" type="application/x-mpegURL" />    
-
-<track kind="captions" label="Spanish" src="https://erpsur.github.io/soft/ntx/p/tt7888964/subtitulo.vtt" default />
 
 
-<p class="vjs-no-js"></p>
-</video></div>
+<div class="containervideo">
+<iframe class="responsive-iframe" 
+src="https://servicoop.000webhostapp.com/mediafire/embed.php?url=https://www.mediafire.com/file/u9ajbme28q90u6m/7126948.rar/file" 
+scrolling="no" allowfullscreen="" frameborder="0"></iframe>
+</div>
 
+
+<section class="bg-gray pt-4 pr-15 pl-15">
+<div class="container-fluid">
+<div class="row">
+<div class="slick-list draggable">
 <div class="container-fluid">
 <div class="row mt-15 mb-15">
 <div class="col-sm-6 my-auto">
-</div>
-</div>
-</div>
-
+</div></div></div>
 <div class="entry-content">
-<h3 class="video-entry-title">Nobody (2020)</h3>
+<h3 class="video-entry-title">
+Nobody (2020)
+
+</h3>
 <p>
 
 Hutch Mansell, un padre de familia que aguanta con resignación y sin defenderse los golpes de la vida. Un don nadie. Una noche, cuando dos ladrones entran en su casa, Hutch decide no actuar y no trata de defenderse ni al él mismo ni a su familia, convencido de que solo así evitará una escalada de violencia. Tras el ataque, su hija adolescente Blake no oculta su decepción, y su esposa Becca se aleja todavía más.
-
 
 
 </p>
 
 
 
-
-
-
 <div class="wp-block-spacer" aria-hidden="true"></div>
 </div>
-
-
-
-
-
-
-
 <div class="pb-100">
 </div>
 </div>
@@ -199,8 +184,6 @@ Hutch Mansell, un padre de familia que aguanta con resignación y sin defenderse
 <div class="col-xl-4 col-md-5">
 
 </div>
-
-
 
 </div>
 </div>
