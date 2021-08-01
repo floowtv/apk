@@ -28,7 +28,6 @@ $result = urldecode($matches[1]);
 
 $output = [];
 $output[] = ['label' => 'Original', 'file' => $result, 'type' => 'video/mp4'];
-
 $output = json_encode($output);
 
 echo $output;
