@@ -2,7 +2,7 @@ git init
 
 git add .
 
-git commit -m "banner"
+git commit -m "banne2"
 
 
 git push origin gh-pages --force
