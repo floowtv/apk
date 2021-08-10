@@ -37,7 +37,7 @@
 <a href="../../index.html" class="custom-logo-link">
 
 
-<img class="custom-logo" width="130px"  src="https://erpsur.github.io/soft/ntx/img/logo-app.png">
+<img class="custom-logo" width="130px"  src="https://floowtv.github.io/apk/docs/img/logo-app.png">
 
 
 
@@ -72,7 +72,7 @@
 <div class="col-7 my-auto">
 <a href="../../index.html" rel="home" aria-current="page">
 
-<img src="https://erpsur.github.io/soft/ntx/img/logo-app.png" width="130px" class=""></a> </div>
+<img src="https://floowtv.github.io/apk/docs/img/logo-app.png" width="130px" class=""></a> </div>
 
 
 
@@ -116,79 +116,64 @@
 
 
 
-<div class="main-container">
-<section class="bg-gray pt-4 pr-15 pl-15">
-<div class="container-fluid">
-<div class="row">
-<div class="slick-list draggable">
 
+<div class="main-container">
 
 
 
 
 <style>
-.video-js-responsive-container.vjs-hd {
-    padding-top: 56.25%;
+.containervideo {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+ 
+  padding-top: 58.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
-.video-js-responsive-container.vjs-sd {
-    padding-top: 75%;
-}
-.video-js-responsive-container {
-    width: 100%;
-    position: relative;
-}
-.video-js-responsive-container .video-js {
-    height: 100% !important; 
-    width: 100% !important;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
 </style>
-<div class="video-js-responsive-container vjs-hd">
- <video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls  preload="auto"
-    poster="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdQemQNAs5onxw1KMGf2vCQEpcWEZlvgxpVGtIpCyD43he1gkCZtPLg5_RWRP0TEyDY84paZfATfxEdKZJs5-goGOWNVZa-lFBBTKPipacOHKy1FZ4bSZB6z_O6M.jpg?r=5a8"
-    data-setup="{}">
-
-<source src="https://hls1x.vidembed.net/load/hls/SnK39QW6A06KYe84_2QdnQ/1624317291/342340/9190fa8afa705506581cd0fa453aa8ea/ep.0.1621620245.m3u8" type="application/x-mpegURL" />    
-<track kind="captions" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt" label="English" default/></track>
 
 
+<div class="containervideo">
+<iframe class="responsive-iframe" 
+src="v.html" 
+scrolling="no" allowfullscreen="" frameborder="0"></iframe>
+</div>
 
-<p class="vjs-no-js"></p>
-</video></div>
 
+<section class="bg-gray pt-4 pr-15 pl-15">
+<div class="container-fluid">
+<div class="row">
+<div class="slick-list draggable">
 <div class="container-fluid">
 <div class="row mt-15 mb-15">
 <div class="col-sm-6 my-auto">
-</div>
-</div>
-</div>
-
+</div></div></div>
 <div class="entry-content">
-<h3 class="video-entry-title">Ejército de los muertos (2021)</h3>
+<h3 class="video-entry-title">
+El ejército de los muertos (2021)
+</h3>
 <p>
 
 Un grupo de mercenarios decide llevar a cabo el mayor atraco que jamás se haya realizado en la ciudad de Las Vegas justo después de que se produzca una epidemia de muertos vivientes. Para ello tendrán que adentrarse en una zona de cuarentena, con los riesgos que ello conlleva.
-
 </p>
-
-
-
 
 
 
 <div class="wp-block-spacer" aria-hidden="true"></div>
 </div>
-
-
-
-
-
-
-
 <div class="pb-100">
 </div>
 </div>
@@ -196,8 +181,6 @@ Un grupo de mercenarios decide llevar a cabo el mayor atraco que jamás se haya 
 <div class="col-xl-4 col-md-5">
 
 </div>
-
-
 
 </div>
 </div>
