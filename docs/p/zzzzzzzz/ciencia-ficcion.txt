@@ -1,7 +1,7 @@
 <!--. estrenos -->
 <div class="row mb-4">
 <div class="col-md-6 my-auto">
-<h4>Ciencia Ficción 2016</h4>
+<h4>Ciencia Ficción 2021</h4>
 </div>
 <div class="col-md-6 my-auto">
 
@@ -15,8 +15,8 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt3748528">
-<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/36/51/62/36516252-45e4-30dc-6d2d-12d5f2ca55b6/pr_source.lsr/509x286.jpg" alt="">
+<a href="../../p/tt5034838">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video114/v4/9a/62/22/9a62227f-44fd-93fc-6fc4-11d60f984a4e/pr_source.lsr/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -24,8 +24,8 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt2543164">
-<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/vs3OF3Do-AnPY2FZDlfnQA/509x286.jpg" alt="">
+<a href="../../p/tt3480822">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/KxwfSmJ40JHks8TZle7KRQ/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -33,8 +33,8 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt2975590">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video123/v4/17/e5/bc/17e5bc2e-02c4-409c-1166-4534404288e1/pr_source.lsr/509x286.jpg" alt="">
+<a href="../../p/tt3480822">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/wMruqKKJO89Er2xNyUCgWA/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -42,8 +42,18 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt4520364">
-<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video123/v4/01/58/fa/0158fabc-bb53-ad14-9abe-e8d5053f514e/1146717322-ES-AMP_SF.lsr/509x286.jpg" alt="">
+<a href="../../p/tt6654210">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/-7fwDl3pYUOMhP82qQQRdw/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt11246434">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/USXQJk1z51pY29cN5V_C9g/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -51,8 +61,8 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt3385516">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/78/4b/55/784b5578-c94e-4968-297d-673b987f4e07/1111396385-WW-AMP_SF.lsr/509x286.jpg" alt="">
+<a href="../../p/tt8955940">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/c6/30/48/c63048a7-707d-2a3d-795f-99f3491f769c/pr_source.lsr/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -60,8 +70,8 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt3498820">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/31/73/51/317351c0-9a1e-756b-d1ad-c176abc02bd8/DIS_CAPTAIN3_WW_ARTWORK_EN-US_3840x2160_1MNY4E000000CI.lsr/509x286.jpg" alt="">
+<a href="../../p/tt11252440">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/aa/6c/8f/aa6c8f3a-86c8-0f8e-0fca-d3b85eb31e5f/pr_source.lsr/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -69,8 +79,8 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt1355644">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/vMKGUwV9I46ERHxShL7b8Q/509x286.jpg" alt="">
+<a href="../../p/tt8615822">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video125/v4/a3/8c/8e/a38c8ef6-6591-db4d-5bfd-e6589e95a5c0/pr_source.lsr/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -78,8 +88,18 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt2660888">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/b1/7d/71/b17d7103-ddf7-6384-5d56-57bb06d71dfd/1128456722-US-AMP_SF.lsr/509x286.jpg" alt="">
+<a href="../../p/tt8332922">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video125/v4/1d/d6/c7/1dd6c71b-ba3a-fbc1-4a6b-a6e624c91e84/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt13361358">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Nv6rdqDx4aFkNmL1Lvl4HQ/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -87,8 +107,8 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt2094766">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video113/v4/4f/30/a4/4f30a4a6-3bc9-cda8-2487-023513b4231f/AssassinsCreed_CoverArt_3840x2160.lsr/509x286.jpg" alt="">
+<a href="../../p/tt11762434">
+<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/Video114/v4/11/b7/cb/11b7cbad-5055-7ea6-1916-028931213ee2/pr_source.lsr/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -96,8 +116,8 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt1628841">
-<img width="509" height="286" src="https://is3-ssl.mzstatic.com/image/thumb/dMmUoqCj5UbR9IeGAD7N0g/509x286.jpg" alt="">
+<a href="../../p/tt7638348">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video124/v4/f5/3b/18/f53b18ba-3bf3-ae7f-2bbe-45dcdd550d61/107519_BossLevel_cover_3840x2160_DAFINOSV_WWDA-p3.lsr/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -105,8 +125,8 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt3014866">
-<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video124/v4/a5/57/f4/a557f4d0-e17d-5df2-78e6-b09415869041/Criminal_en-US_3840x2160_CoverArt_1099240751.lsr/509x286.jpg" alt="">
+<a href="../../p/tt7026488">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video114/v4/a9/87/f0/a987f0d1-5127-4856-0011-9bf3d030e4e0/IFCENT_SF30417-en_16x9.png/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -114,8 +134,8 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt2304933">
-<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/76/9e/e0/769ee0fc-bf49-1295-2468-c2cad9fb7e17/SPE_5TH_WAVE_TH_WW_ARTWORK_EN_3840x2160_1QCAQT000000DN.png/509x286.jpg" alt="">
+<a href="../../p/tt7740204">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Video114/v4/41/3b/58/413b5831-a9d4-1d41-9c0e-6b29b9fcef94/GRAV21937_169.png/509x286.jpg" alt="">
 </a>
 </div>
 </div>
@@ -123,12 +143,106 @@
 <div class="col-xl-8">
 <div class="video-item-card">
 <div class="video-thumb">
-<a href="../../p/tt2649554">
-<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/63/b4/24/63b42447-0e97-ecac-9669-eab90b9e5efb/pr_source.lsr/509x286.jpg" alt="">
+<a href="../../p/tt12483708">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/84/61/ed/8461ed3d-424d-f9fd-5615-29665b93b442/Ep_202104_169.png/509x286.jpg" alt="">
 </a>
 </div>
 </div>
 </div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt12108622">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/9f/13/4d/9f134d8d-692e-f6a3-7a6c-ade0f6d89f8a/BF_000099_en_16X9-artwork.png/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt7143598">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video114/v4/88/d0/04/88d00464-8b7f-06cf-b5d4-03433df02eb8/GRAV21967_169.png/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt9664108">
+<img width="509" height="286" src="https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/13/30/eb/1330eb54-0c59-f11f-3dfa-7802da037d8c/pr_source.lsr/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt9203694">
+<img width="509" height="286" src="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSVa9kKRwY3IPq17wXHLKYv98_28bD0kNZ9UUbwXTM8LOBOEzBt7W9rju7BpZNMp0iqwmnYETyvgRi3mxZU4f0ezI6_GDcpbfJIJOyacIHopLvgg_rFcyvYPwsqX.jpg?r=774" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt5821728">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/Video115/v4/be/61/b9/be61b9ed-fcf1-2663-3653-eb7ae4dabe63/pr_source.jpg/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt14516188">
+<img width="509" height="286" src="https://is2-ssl.mzstatic.com/image/thumb/fdBF3Pm8xlanDbAcCX6rzA/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt6341832">
+<img width="509" height="286" src="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQnUpk0QHsD3uu7WXDY8MLOiGLuxVXKFOprdxLRzSRERk-hzucQpW0aVWFU2G_4u1JejeeLkJytYawZtS3ipJB78Pp--rduBzDLNKGhRrm0bRpSVLad6Lpk7UQao.jpg?r=d97" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt9439344">
+<img width="509" height="286" src="https://is1-ssl.mzstatic.com/image/thumb/Eqm5nP5PWxXWoHOmJ-471w/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt10533804">
+<img width="509" height="286" src="https://is4-ssl.mzstatic.com/image/thumb/Video125/v4/9c/b5/93/9cb59358-0ea0-928d-1fd8-962227edd0ce/pr_source.jpg/509x286.jpg" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+<div class="video-item-card">
+<div class="video-thumb">
+<a href="../../p/tt14880258">
+<img width="509" height="286" src="https://occ-0-2942-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTE7HHil2wwfI9gPpmkvjktFtEH0I79gohVlH1t9I9ZD4nCX8XUiP_RYh-1bIF_h4e91CckPFJDfugFseyzEMKQCE-c2tODtu11hZzV-Vhl-cYrniwOT7udOhwOa4Q.jpg?r=fde" alt="">
+</a>
+</div>
+</div>
+</div>
+
+
+
+
 
 
 
