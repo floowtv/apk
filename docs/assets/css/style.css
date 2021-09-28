@@ -423,7 +423,25 @@ button.mfp-close {
             text-decoration: none;
           }
          
+ .netflix {background-image: linear-gradient(to right, #444444 0%, #575757  51%, #262629  100%)}
+         .netflix {
+            margin: 0px;
+            padding: 0px 0px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.8s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 1px #000;
+            border-radius: 7px;
+            display: block;
+          }
 
+          .netflix:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
 
 
 
