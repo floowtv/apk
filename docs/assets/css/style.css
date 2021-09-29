@@ -425,7 +425,7 @@ button.mfp-close {
          
  .netflix {background-image: linear-gradient(to right, #444444 0%, #575757  51%, #262629  100%)}
          .netflix {
-            margin: 0px;
+            margin: 10px;
             padding: 0px 0px;
             text-align: center;
             text-transform: uppercase;
