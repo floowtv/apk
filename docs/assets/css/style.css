@@ -423,7 +423,7 @@ button.mfp-close {
             text-decoration: none;
           }
          
- .netflix {background-image: linear-gradient(to right, #444444 0%, #575757  51%, #262629  100%)}
+ .netflix {background-image: linear-gradient(to right, #e6e6e6 0%, #e6e6e6  51%, #e6e6e6  100%)}
          .netflix {
             margin: 10px;
             padding: 0px 0px;
@@ -443,8 +443,85 @@ button.mfp-close {
             text-decoration: none;
           }
 
+ .prime {background-image: linear-gradient(to right, #212f3c 0%, #212f3c  51%, #212f3c  100%)}
+         .prime {
+            margin: 10px;
+            padding: 0px 0px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.8s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 1px #000;
+            border-radius: 7px;
+            display: block;
+          }
 
+          .prime:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
 
+ .prime2 {background-image: linear-gradient(to right, #1d2460 0%, #1d2460  51%, #1d2460  100%)}
+         .prime2 {
+            margin: 10px;
+            padding: 0px 0px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.8s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 1px #000;
+            border-radius: 7px;
+            display: block;
+          }
+
+          .prime2:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+ .hb {background-image: linear-gradient(to right, #181818 0%, #181818  51%, #181818  100%)}
+         .hb {
+            margin: 10px;
+            padding: 0px 0px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.8s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 1px #000;
+            border-radius: 7px;
+            display: block;
+          }
+
+          .hb:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+ .para {background-image: linear-gradient(to right, #0568fd 0%, #0568fd  51%, #0568fd  100%)}
+         .para {
+            margin: 10px;
+            padding: 0px 0px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.8s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 1px #000;
+            border-radius: 7px;
+            display: block;
+          }
+
+          .para:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
 
 
 .viewtube-btn {
