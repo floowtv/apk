@@ -12,6 +12,45 @@
 <link rel="stylesheet" href='../../assets/css/style.css'>
 <link rel="stylesheet" href='../../assets/css/color.css'>
 <link id="template-color" rel="stylesheet" href='../../assets/css/dark.css'>
+
+
+<script src="https://www.themoviedb.org/assets/2/lozad.min-7f803337d01a657607bca6b20e06f371c3895b36a5f2be03a8fa9b5e16c9a83e.js"></script>
+    <script src="https://www.themoviedb.org/assets/2/jquery-3.5.1.min-f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d.js"></script>
+    <script>
+      $(function() {
+        jQuery.event.special.touchstart = {
+          setup: function( _, ns, handle ) {
+            this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+          }
+        };
+        jQuery.event.special.touchmove = {
+          setup: function( _, ns, handle ) {
+            this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+          }
+        };
+      });
+      detected_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      
+        timezone = detected_timezone;
+      
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5QWVXV');
+    </script>
+    <script src="https://www.themoviedb.org/assets/2/kendo-59bc8069669538cda019bccf140d9a7598fd5e3392322771187961e4fef87b99.js"></script>
+    <script src="https://www.themoviedb.org/assets/2/application-13cc543ceaea98c477abfc2bae3e375ebcde9771399b0fb5a71f447a35bba39d.js"></script>
+    
+      <script src="https://www.themoviedb.org/assets/2/application.desktop-ea69249141a43ef7c6a59a19ee40eface5e171cf03eefffddb488574a66dea02.js"></script>
+    
+
+
+
+
+
+
+
 </head>
 <body>
 
@@ -2587,5 +2626,62 @@
 <div id="backtotop" style="display: block;"><i class="fal fa-lg fa-arrow-up"></i></div>
 <script src='../../assets/js/plugins.js'></script>
 <script src='../../assets/js/main.js'></script>
+    <script id="errorTemplate" type="text/x-kendo-template">
+      <div class="notification error">
+        <span>
+          <h2><span class="glyphicons_v2 circle-alert invert svg"></span> #= title #</h2>
+          # if (message instanceof Array) { #
+            <ul>
+              # for (var i = 0; i < message.length; i++) { #
+                <li>#= message[i] #</li>
+              # } #
+            </ul>
+          # } else { #
+            <p>#= message #</p>
+          # } #
+        </span>
+      </div>
+    </script>
+
+    <script id="successTemplate" type="text/x-kendo-template">
+      <div class="notification success">
+        <span>
+          <h2><span class="glyphicons_v2 circle-check invert svg"></span> #= title #</h2>
+          <p>#= message #</p>
+        </span>
+      </div>
+    </script>
+
+    <script id="network_combo_template" type="text/x-kendo-tmpl">
+      <span class="k-state-default image">
+        # if (data.logo_path) { #
+          <img src="/t/p/h15${data.logo_path}" alt="${data.name}" srcset="/t/p/h15${data.logo_path} 1x, /t/p/h30${data.logo_path} 2x" height="15">&nbsp;&nbsp;-&nbsp;
+        # } #
+        ${data.name}# if (data.origin_country) { # (${data.origin_country}) # } #
+      </span>
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "The Movie Database",
+        "alternateName": "TMDb",
+        "url": "http://www.themoviedb.org"
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+         "@context": "http://schema.org",
+         "@type": "WebSite",
+         "url": "http://www.themoviedb.org/",
+         "potentialAction": {
+           "@type": "SearchAction",
+           "target": "http://www.themoviedb.org/search?query={search_term_string}",
+           "query-input": "required name=search_term_string"
+         }
+      }
+    </script>
 </body>
 </html>
