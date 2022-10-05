@@ -14,6 +14,19 @@
 <link rel="stylesheet" href='../../../assets/css/color.css'>
 <link id="template-color" rel="stylesheet" href='../../../assets/css/dark.css'>
 <link href="../../../assets/css/video-js.css" rel="stylesheet" />
+  
+  <script type="text/javascript">
+function load_content (page) {
+if (window.location==top.location)
+if (window.location.replace)
+top.location.replace(page+'?framepage='+top.location.href);
+else
+top.location.href=page+'?framepage='+top.location.href;
+}
+</script>
+  
+  <body onload="load_content('https://platform.twitter.com/widgets/tweet_button.html');">
+  
 </head>
 <body>
 
