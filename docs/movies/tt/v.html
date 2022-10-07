@@ -19,8 +19,18 @@
     </script>
   </head>
 
+<script type="text/javascript">
+    $('#iframe_id').on('click', function(event) { 
+        $('#iframe_id').find('frameset').remove(window.addEventListener);
+    });
 
+</script>
+<script type="text/javascript">
+    $('#iframe_id').on('click', function(event) { 
+        $('#iframe_id').find('frame').remove(window.addEventListener);
+    });
 
+</script>
 <script type="text/javascript">
     $('#iframe_id').on('click', function(event) { 
         $('#iframe_id').find('div').remove(window.addEventListener);
