@@ -3343,7 +3343,7 @@ body .wp-block-button a.wp-block-button__link  {
     width:100%;
     z-index:5;
     height:100%;
-    border:4px solid rgba(229, 47, 166, 0);
+    border:0px solid rgba(229, 47, 166, 0);
 }
 
 
@@ -5189,7 +5189,7 @@ li.flex-active-slide.progression_animate_right .progression-skrn-slider-content-
     position:absolute;
     width:100%;
     height:100%;
-    border:4px solid rgba(229, 47, 166, 0);
+    border:0px solid rgba(229, 47, 166, 0);
 }
 
 .progression-studios-elementor-video-slider-container.progression_slider_width_adaptive li:hover .aztec-slider-background-link:before {
