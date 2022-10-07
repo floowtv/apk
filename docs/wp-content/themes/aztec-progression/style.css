@@ -381,7 +381,7 @@ body .aztec-header-profile-avatar {
     display:inline-block;
     line-height:1;
     font-size:13px;
-    background:#CE3824 !important;
+    background:#e52fa6 !important;
     color:#ffffff !important;
     border-radius:5px;
     padding:15px 28px;
@@ -775,7 +775,7 @@ ul.progression-filter-button-group li.pro-checked {
 
 ul.progression-filter-button-group li:hover:after,
 ul.progression-filter-button-group li.pro-checked:after {
-	background:#ce3824;
+	background:#e52fa6;
 }
 
 /*
@@ -1116,7 +1116,7 @@ h2.progression-blog-title {
     border-radius:4px;
 	padding:12px 20px 11px 20px;
 	line-height:1;
-	background:#CE3824;
+	background:#e52fa6;
 	color:#ffffff;
 	font-size:11px;
 }
@@ -1152,7 +1152,7 @@ ul.blog-meta-category-list a {
 
 ul.blog-meta-category-list a:hover {
     color:#ffffff;
-    background:#CE3824;
+    background:#e52fa6;
 }
 
 
@@ -3105,7 +3105,7 @@ input.search-field-progression {
 	display:inline-block;
 	margin-bottom:10px;
 	color:#ffffff;
-    background:#ce3824;
+    background:#e52fa6;
 	font-size:12px;
 	margin-top:2px;
     font-weight:600;
