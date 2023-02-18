@@ -1,0 +1,1537 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="theme-color" content="#ff0015">  
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="">
+<title>Floow</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="canonical" href="https://floowtv.github.io/app/">
+
+<meta property="og:type" content="movie" />
+<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="https://floowtv.github.io/app/upload/images/logo.png" />
+<meta property="og:url" content="https://floowtv.github.io/app" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="1024" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://floowtv.github.io/app/upload/images/logo.png">
+<link rel="image_src" href="https://floowtv.github.io/app/upload/images/logo.png">
+
+<link rel="icon" href="https://floowtv.github.io/app/upload/images/favicon.png">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/nice-select.css">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/megamenu.css">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/ionicons.css">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/style_switcher.css">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/color-style/style-six.css" id="theme">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/responsive.css">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/splide.min.css">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/jquery-eu-cookie-law-popup.css">
+<link rel="stylesheet" href="https://floowtv.github.io/app/site_assets/css/fonts.css">
+
+
+  
+  
+ <style type="text/css">
+      .search .search-input input[type=text]::placeholder, .search .search-input input[type=text].focus {
+          background: #000000 !important; 
+      }
+
+      /*****************************************************************
+	Preview Header Buy Now
+*****************************************************************/
+header{
+	margin-top:48px;
+}
+.vfx_preview_header {
+	height: 50px;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	position: absolute;
+}
+.header_top {
+	display: inline-block;
+	padding: 11px 5px;
+	position: relative;
+	min-height: 50px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #ffffff;
+	width: 100%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.preview_envato_logo {
+	float: left;
+	padding: 0;
+}
+.preview_envato_logo a {
+	display: inline-block;
+	position: absolute;
+	top: 14px;
+	text-indent: -9999px;
+	height: 18px;
+	width: 152px;
+	background: url(https://public-assets.envato-static.com/assets/logos/envato_market-a5ace93f8482e885ae008eb481b9451d379599dfed24868e52b6b2d66f5cf633.svg);
+	background-size: auto;
+	background-size: 152px 18px;
+}
+.vfx_preview_header + header:before {
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	content: "";
+	height: 60px;
+	position: absolute;
+	background-size: 200% 200%;
+	-webkit-animation: gradientChange 5s ease infinite;
+			animation: gradientChange 5s ease infinite;
+	background-image: -webkit-gradient(linear, right top, left top, from(#3d9bfc), color-stop(#7b40e4), color-stop(#f53a8b), color-stop(#ee704a), to(#ddd24c));
+	background-image: linear-gradient(270deg, #3d9bfc, #7b40e4, #f53a8b, #ee704a, #ddd24c);
+}
+.vfx_preview_contant {
+	padding: 0 10px;
+	display: block;
+	margin: 0 auto;
+	width: max-content;
+}
+.vfx_preview_contant p{
+	margin-bottom:0;
+	color:#ffffff;
+}
+.vfx_preview_buy_now{
+	padding: 0 5px 0 10px;
+	display: block;
+	right: 0;
+	top:13px;
+	position: absolute;
+}
+.buy-now-btn{
+	background: #ffffff;
+	border-radius: 4px;
+	color: #fd0575;
+	font-size: 14px;
+	font-weight:700;
+	padding: 6px 20px;
+	line-height: 1.5;
+	text-transform:uppercase;
+	box-shadow:0 1px 8px rgba(0, 0, 0, 0.15);
+}
+.buy-now-btn:hover{
+	background:#b71850;
+	color:#ffffff;
+}
+
+@media only screen and (max-width:639px) {
+.vfx_preview_contant{
+	display:none;
+}
+}
+
+/*****************************************************************
+	CSS Animation - Start
+*****************************************************************/
+.layer {
+  position: relative !important;
+}
+
+@-webkit-keyframes dropDown {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes dropDown {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes gradientChange {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradientChange {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-webkit-keyframes radiusAnimation {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+@keyframes radiusAnimation {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+.radius_animation {
+  -webkit-animation: radiusAnimation 8s ease-in-out infinite;
+          animation: radiusAnimation 8s ease-in-out infinite;
+}
+/*****************************************************************
+	CSS Animation - End
+*****************************************************************/
+ </style>
+
+</head>
+<body>
+ 
+ <!-- Start Pre Loader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>    
+  </div>
+</div>
+<!-- End Pre Loader -->
+
+
+    <!-- Preview Header Start -->
+<div class="vfx_preview_header">
+	<div class="container-fluid">
+		<div class="header_top">
+			<div class="preview_envato_logo">
+				<a class="header-envato_market" href="https://1.envato.market/76aGQ">Envato Market</a>
+			</div>
+			<div class="vfx_preview_contant">
+				<p>Purchase this source code from Codecanyon only. WhatsApp: (+91) 9227777522</p>
+			</div>
+			<div class="vfx_preview_buy_now">
+				<a class="buy-now-btn" href="https://1.envato.market/76aGQ">Buy now</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Preview Header End -->
+
+<!-- Start Header -->
+<header>
+  <!-- Start Navigation Area -->
+  <div class="main-menu"> 
+    <nav class="header-section pin-style">
+      <div class="container-fluid">
+        <div class="mod-menu">
+          <div class="row">
+            <div class="col-2"> 
+                               
+                <a href="https://floowtv.github.io/app" title="logo" class="logo"><img src="https://floowtv.github.io/app/upload/images/logo.png" alt="logo" title="logo"></a>
+               
+            </div>
+            <div class="col-7 nav-order-last nopadding">
+              <div class="main-nav leftnav">
+                <ul class="top-nav">
+                  <li class="visible-this d-md-none menu-icon"> <a href="#" class="navbar-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false" title="menu-toggle"><i class="fa fa-bars"></i></a> </li>
+                </ul>
+                <div id="menu" class="collapse header-menu">
+                  <ul class="nav vfx-item-nav">
+                    <li><a href="https://floowtv.github.io/app" class=" active" title="home">Home</a></li>
+                    
+                                        <li><a href="https://floowtv.github.io/app/movies" class="" title="Movies">Movies</a></li>
+                    
+                                        <li><a href="https://floowtv.github.io/app/shows" class="" title="TV Shows">TV Shows</a></li>
+                    
+                                        <li><a href="https://floowtv.github.io/app/sports" class="" title="Sports">Sports</a> <span class="arrow"></span>
+                      <ul class="dm-align-2 mega-list">
+                                                <li><a href="https://floowtv.github.io/app/sports?cat_id=8" title="Archery">Archery</a></li>
+                                                <li><a href="https://floowtv.github.io/app/sports?cat_id=15" title="Athletics">Athletics</a></li>
+                                                <li><a href="https://floowtv.github.io/app/sports?cat_id=9" title="Badminton">Badminton</a></li>
+                                                <li><a href="https://floowtv.github.io/app/sports?cat_id=11" title="Car racing">Car racing</a></li>
+                                                <li><a href="https://floowtv.github.io/app/sports?cat_id=10" title="Cricket">Cricket</a></li>
+                                                <li><a href="https://floowtv.github.io/app/sports?cat_id=12" title="Football">Football</a></li>
+                                                <li><a href="https://floowtv.github.io/app/sports?cat_id=14" title="Hokey">Hokey</a></li>
+                                                <li><a href="https://floowtv.github.io/app/sports?cat_id=16" title="Khelo India">Khelo India</a></li>
+                             
+                      </ul>
+                    </li>
+                         
+
+                                        <li><a href="https://floowtv.github.io/app/livetv" class="" title="Live TV">Live TV</a> <span class="arrow"></span>
+                      <ul class="dm-align-2 mega-list">
+                                                  <li><a href="https://floowtv.github.io/app/livetv?cat_id=1" title="Entertainment">Entertainment</a></li>
+                                                  <li><a href="https://floowtv.github.io/app/livetv?cat_id=5" title="Lifestyle">Lifestyle</a></li>
+                                                  <li><a href="https://floowtv.github.io/app/livetv?cat_id=3" title="Music">Music</a></li>
+                                                  <li><a href="https://floowtv.github.io/app/livetv?cat_id=2" title="News">News</a></li>
+                                                  <li><a href="https://floowtv.github.io/app/livetv?cat_id=4" title="Sports">Sports</a></li>
+                             
+                      </ul>
+                    </li>
+                        
+ 
+                  </ul>
+                </div>
+              </div>
+            </div>
+      <div class="col-3"> 
+        <div class="right-sub-item-area">
+          <div class="search-item-block">
+            <form class="navbar-form navbar-left">
+              <a type="submit" href="#popup1" class="btn btn-default open" title="search"><i class="fa fa-search"></i></a>
+            </form>
+          </div>
+          <div class="subscribe-btn-item">
+            <a href="https://floowtv.github.io/app/membership_plan" title="subscribe"><img src="https://floowtv.github.io/app/site_assets/images/ic-subscribe.png" alt="ic-subscribe" title="ic-subscribe"></a>
+          </div>
+                    <div class="signup-btn-item">
+            <a href="https://floowtv.github.io/app/login" title="login"><img src="https://floowtv.github.io/app/site_assets/images/ic-signup-user.png" alt="ic-signup-user" title="signup-user"><span>Login</span></a>
+            
+          </div>
+        </div>        
+      </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- End Navigation Area --> 
+</header>
+<!-- End Header -->  
+
+
+      
+  <!-- Start Slider Area -->
+<div class="slider-area pt-3">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        
+        
+                 
+        
+        <li class="splide__slide">
+          <a href="https://floowtv.github.io/app/movies/details/jayeshbhai-jordaar/42" title="Jayeshbhai Jordaar">
+            <div class="splide-slider-details-area">
+              <h1>Jayeshbhai Jordaar</h1>
+              <a href="https://floowtv.github.io/app/movies/details/jayeshbhai-jordaar/42" class="btn-watch" title="Jayeshbhai Jordaar"><img src="https://floowtv.github.io/app/site_assets/images/ic-play.png" alt="ic-play" title="ic-play">Watch</a>
+              <a href="https://floowtv.github.io/app/membership_plan" class="btn-buy-plan" title="buy-plan"><img src="https://floowtv.github.io/app/site_assets/images/ic-subscribe.png" alt="ic-subscribe" title="ic-subscribe">Buy Plan</a>
+            </div>
+            <img src="https://floowtv.github.io/app/upload/images/jayeshbhai_jordaar.jpg" title="Jayeshbhai Jordaar" alt="Jayeshbhai Jordaar">
+          </a>
+        </li>
+        
+        
+                 
+        
+        <li class="splide__slide">
+          <a href="https://floowtv.github.io/app/movies/details/thor-love-and-thunder/27" title="Thor Love and Thunder">
+            <div class="splide-slider-details-area">
+              <h1>Thor Love and Thunder</h1>
+              <a href="https://floowtv.github.io/app/movies/details/thor-love-and-thunder/27" class="btn-watch" title="Thor Love and Thunder"><img src="https://floowtv.github.io/app/site_assets/images/ic-play.png" alt="ic-play" title="ic-play">Watch</a>
+              <a href="https://floowtv.github.io/app/membership_plan" class="btn-buy-plan" title="buy-plan"><img src="https://floowtv.github.io/app/site_assets/images/ic-subscribe.png" alt="ic-subscribe" title="ic-subscribe">Buy Plan</a>
+            </div>
+            <img src="https://floowtv.github.io/app/upload/images/thor_love_and_thunder.jpg" title="Thor Love and Thunder" alt="Thor Love and Thunder">
+          </a>
+        </li>
+        
+                
+                 
+        
+        <li class="splide__slide">
+          <a href="https://floowtv.github.io/app/shows/details/the-terminal-list/1" title="The Terminal List">
+            <div class="splide-slider-details-area">
+              <h1>The Terminal List</h1>
+              <a href="https://floowtv.github.io/app/shows/details/the-terminal-list/1" class="btn-watch" title="The Terminal List"><img src="https://floowtv.github.io/app/site_assets/images/ic-play.png" alt="ic-play" title="ic-play">Watch</a>
+              <a href="https://floowtv.github.io/app/membership_plan" class="btn-buy-plan" title="buy-plan"><img src="https://floowtv.github.io/app/site_assets/images/ic-subscribe.png" alt="ic-subscribe" title="ic-subscribe">Buy Plan</a>
+            </div>
+            <img src="https://floowtv.github.io/app/upload/images/The_Terminal_List_New.jpg" title="The Terminal List" alt="The Terminal List">
+          </a>
+        </li>
+        
+                
+                 
+        
+        <li class="splide__slide">
+          <a href="https://floowtv.github.io/app/shows/details/ms-marvel/7" title="Ms. Marvel">
+            <div class="splide-slider-details-area">
+              <h1>Ms. Marvel</h1>
+              <a href="https://floowtv.github.io/app/shows/details/ms-marvel/7" class="btn-watch" title="Ms. Marvel"><img src="https://floowtv.github.io/app/site_assets/images/ic-play.png" alt="ic-play" title="ic-play">Watch</a>
+              <a href="https://floowtv.github.io/app/membership_plan" class="btn-buy-plan" title="buy-plan"><img src="https://floowtv.github.io/app/site_assets/images/ic-subscribe.png" alt="ic-subscribe" title="ic-subscribe">Buy Plan</a>
+            </div>
+            <img src="https://floowtv.github.io/app/upload/images/ms_marvel_poster_new.png" title="Ms. Marvel" alt="Ms. Marvel">
+          </a>
+        </li>
+        
+        
+                 
+        
+        <li class="splide__slide">
+          <a href="https://floowtv.github.io/app/movies/details/shamshera-quality/13" title="Shamshera">
+            <div class="splide-slider-details-area">
+              <h1>Shamshera</h1>
+              <a href="https://floowtv.github.io/app/movies/details/shamshera-quality/13" class="btn-watch" title="Shamshera"><img src="https://floowtv.github.io/app/site_assets/images/ic-play.png" alt="ic-play" title="ic-play">Watch</a>
+              <a href="https://floowtv.github.io/app/membership_plan" class="btn-buy-plan" title="buy-plan"><img src="https://floowtv.github.io/app/site_assets/images/ic-subscribe.png" alt="ic-subscribe" title="ic-subscribe">Buy Plan</a>
+            </div>
+            <img src="https://floowtv.github.io/app/upload/images/Shamshera-New.jpg" title="Shamshera" alt="Shamshera">
+          </a>
+        </li>
+                 
+        
+      </ul>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- End Slider Area --> 
+ 
+<!-- Start Upcoming Section -->
+ 
+<!-- Start Movies Video Carousel -->
+<div class="video-carousel-area vfx-item-ptb">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="vfx-item-section">
+            <h3>Upcoming Movies</h3>        
+          </div>
+          <div class="video-carousel owl-carousel">
+            
+                      <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/samrat-prithviraj/17" title="Samrat Prithviraj">
+                  <div class="video-img">  
+                         
+                  <div class="vid-lab-premium">
+                    <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                  </div> 
+                                    <span class="video-item-content">Samrat Prithviraj</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/Prithviraj_Small.jpg" alt="Samrat Prithviraj" title="Samrat Prithviraj">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/major/16" title="Major">
+                  <div class="video-img">  
+                                    <span class="video-item-content">Major</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/Major_Small.jpg" alt="Major" title="Major">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/jugjugg-jeeyo/15" title="Jugjugg Jeeyo">
+                  <div class="video-img">  
+                         
+                  <div class="vid-lab-premium">
+                    <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                  </div> 
+                                    <span class="video-item-content">Jugjugg Jeeyo</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/jugjugg_jeeyo_small.jpg" alt="Jugjugg Jeeyo" title="Jugjugg Jeeyo">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/rama-rao-on-duty/12" title="Rama Rao on Duty">
+                  <div class="video-img">  
+                                    <span class="video-item-content">Rama Rao on Duty</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/Rama_Rao_on_Duty_270X390.jpg" alt="Rama Rao on Duty" title="Rama Rao on Duty">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/darlings/11" title="Darlings">
+                  <div class="video-img">  
+                                    <span class="video-item-content">Darlings</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/Darlings_270X390.jpg" alt="Darlings" title="Darlings">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/raksha-bandhan/10" title="Raksha Bandhan">
+                  <div class="video-img">  
+                                    <span class="video-item-content">Raksha Bandhan</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/Raksha_Bandhan_270X390.jpg" alt="Raksha Bandhan" title="Raksha Bandhan">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/liger/8" title="Liger">
+                  <div class="video-img">  
+                                    <span class="video-item-content">Liger</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/MV5BODhjZTU5ZmItMTYxNy00NjU5LWE4OTItNTliMTMxZmEzOTc3XkEyXkFqcGdeQXVyMTI1NDAzMzM0._V1_SX300.jpg" alt="Liger" title="Liger">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/vr-vikrant-rona/7" title="VR (Vikrant Rona)">
+                  <div class="video-img">  
+                                    <span class="video-item-content">VR (Vikrant Rona)</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/MV5BODUwZmU5MmYtN2UwOS00ZjI1LWE4OTQtNGFmYTllY2JmZjU1XkEyXkFqcGdeQXVyMzU0ODc1MTQ@._V1_SX300.jpg" alt="VR (Vikrant Rona)" title="VR (Vikrant Rona)">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/the-legend/6" title="The Legend">
+                  <div class="video-img">  
+                                    <span class="video-item-content">The Legend</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/MV5BYzYyNTM0YzktNWVmOS00NWNiLWEyODItYTkwNDIwMzgzNTE5XkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_SX300.jpg" alt="The Legend" title="The Legend">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/black-panther-wakanda-forever/4" title="Black Panther: Wakanda Forever">
+                  <div class="video-img">  
+                                    <span class="video-item-content">Black Panther: Wakanda Forever</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/MV5BYjJlMjBmYzUtY2E3MC00OWI1LWE1YmUtOTdmM2IyMTQyZDBjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg" alt="Black Panther: Wakanda Forever" title="Black Panther: Wakanda Forever">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/laal-singh-chaddha/3" title="Laal Singh Chaddha">
+                  <div class="video-img">  
+                         
+                  <div class="vid-lab-premium">
+                    <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                  </div> 
+                                    <span class="video-item-content">Laal Singh Chaddha</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/Laal_Singh_Chaddha_270X390.jpg" alt="Laal Singh Chaddha" title="Laal Singh Chaddha">         
+                  </div>       
+              </a>
+            </div>
+                        <div class="single-video">
+                <a href="https://floowtv.github.io/app/movies/details/ek-villain-returns/1" title="Ek Villain Returns">
+                  <div class="video-img">  
+                                    <span class="video-item-content">Ek Villain Returns</span> 
+                  <img src="https://floowtv.github.io/app/upload/images/Ek-Villain-Returns.jpg" alt="Ek Villain Returns" title="Ek Villain Returns">         
+                  </div>       
+              </a>
+            </div>
+            
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Latest Movies Video Carousel -->
+<!-- End Upcoming Section -->
+
+ 
+<!-- Start Upcoming Section -->
+
+<!-- Start Latest Shows Video Section -->
+<div class="video-shows-section vfx-item-ptb">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="vfx-item-section">
+                <h3>Upcoming Shows</h3>
+                
+              </div>
+              <div class="video-shows-carousel owl-carousel">
+                              <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/ms-marvel/7" title="Ms. Marvel">
+                     <div class="video-img"> 
+                                                  <div class="vid-lab-premium"><img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="premium" title="premium"></div> 
+                                            <span class="video-item-content">Ms. Marvel</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/ms-marvel-season-2.jpg" alt="Ms. Marvel" title="Ms. Marvel">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/young-royals/6" title="Young Royals">
+                     <div class="video-img"> 
+                                            <span class="video-item-content">Young Royals</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Young-Royals-Quotes-og.jpg" alt="Young Royals" title="Young Royals">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/blockbuster/5" title="Blockbuster">
+                     <div class="video-img"> 
+                                                  <div class="vid-lab-premium"><img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="premium" title="premium"></div> 
+                                            <span class="video-item-content">Blockbuster</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Blockbuster.jpg" alt="Blockbuster" title="Blockbuster">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/stranger-things/4" title="Stranger Things">
+                     <div class="video-img"> 
+                                            <span class="video-item-content">Stranger Things</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/stranger-things-1.jpg" alt="Stranger Things" title="Stranger Things">         
+                     </div>       
+                  </a>
+                </div>
+                             
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Latest Shows Video Section -->
+<!-- End Upcoming Section -->
+
+  
+      
+            <!-- Start Movies Video Carousel -->
+      <div class="video-carousel-area vfx-item-ptb">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="vfx-item-section">
+                <a href="https://floowtv.github.io/app/collections/latest-movies/1" title="Latest Movies"><h3>Latest Movies</h3></a>
+            <span class="view-more">
+             <a href="https://floowtv.github.io/app/collections/latest-movies/1" title="view-more">View All</a>
+            </span>
+              </div>
+              <div class="video-carousel owl-carousel">
+                
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/pushpa-the-rise-part-1/14" title="Pushpa: The Rise - Part 1">
+                     <div class="video-img">  
+                                            <span class="video-item-content">Pushpa: The Rise - Part 1</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/pushpa_270X390.jpg" alt="Pushpa: The Rise - Part 1" title="Pushpa: The Rise - Part 1">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/shamshera-quality/13" title="Shamshera (Quality)">
+                     <div class="video-img">  
+                             
+                      <div class="vid-lab-premium">
+                        <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                      </div> 
+                                            <span class="video-item-content">Shamshera (Quality)</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Shamshera_270X390.jpg" alt="Shamshera (Quality)" title="Shamshera (Quality)">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/raksha-bandhan/10" title="Raksha Bandhan">
+                     <div class="video-img">  
+                                            <span class="video-item-content">Raksha Bandhan</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Raksha_Bandhan_270X390.jpg" alt="Raksha Bandhan" title="Raksha Bandhan">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/avatar-the-way-of-water/9" title="Avatar: The Way of Water">
+                     <div class="video-img">  
+                             
+                      <div class="vid-lab-premium">
+                        <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                      </div> 
+                                            <span class="video-item-content">Avatar: The Way of Water</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Avatar_2_270X390.jpg" alt="Avatar: The Way of Water" title="Avatar: The Way of Water">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/john-wick-chapter-4/5" title="John Wick: Chapter 4">
+                     <div class="video-img">  
+                             
+                      <div class="vid-lab-premium">
+                        <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                      </div> 
+                                            <span class="video-item-content">John Wick: Chapter 4</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/JohnWick2.jpg" alt="John Wick: Chapter 4" title="John Wick: Chapter 4">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/laal-singh-chaddha/3" title="Laal Singh Chaddha">
+                     <div class="video-img">  
+                             
+                      <div class="vid-lab-premium">
+                        <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                      </div> 
+                                            <span class="video-item-content">Laal Singh Chaddha</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Laal_Singh_Chaddha_270X390.jpg" alt="Laal Singh Chaddha" title="Laal Singh Chaddha">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/ek-villain-returns/1" title="Ek Villain Returns">
+                     <div class="video-img">  
+                                            <span class="video-item-content">Ek Villain Returns</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Ek-Villain-Returns.jpg" alt="Ek Villain Returns" title="Ek Villain Returns">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/jugjugg-jeeyo/15" title="Jugjugg Jeeyo">
+                     <div class="video-img">  
+                             
+                      <div class="vid-lab-premium">
+                        <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                      </div> 
+                                            <span class="video-item-content">Jugjugg Jeeyo</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/jugjugg_jeeyo_small.jpg" alt="Jugjugg Jeeyo" title="Jugjugg Jeeyo">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/darlings/11" title="Darlings">
+                     <div class="video-img">  
+                                            <span class="video-item-content">Darlings</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Darlings_270X390.jpg" alt="Darlings" title="Darlings">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/rama-rao-on-duty/12" title="Rama Rao on Duty">
+                     <div class="video-img">  
+                                            <span class="video-item-content">Rama Rao on Duty</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Rama_Rao_on_Duty_270X390.jpg" alt="Rama Rao on Duty" title="Rama Rao on Duty">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/black-panther-wakanda-forever/4" title="Black Panther: Wakanda Forever">
+                     <div class="video-img">  
+                                            <span class="video-item-content">Black Panther: Wakanda Forever</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/MV5BYjJlMjBmYzUtY2E3MC00OWI1LWE1YmUtOTdmM2IyMTQyZDBjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg" alt="Black Panther: Wakanda Forever" title="Black Panther: Wakanda Forever">         
+                     </div>       
+                  </a>
+                </div>
+                
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Latest Movies Video Carousel -->
+      
+      
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+  
+      
+      
+      
+      
+            <!-- Start Latest Shows Video Section -->
+      <div class="video-shows-section vfx-item-ptb">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="vfx-item-section">
+                <a href="https://floowtv.github.io/app/collections/latest-shows/2" title="Latest Shows"><h3>Latest Shows</h3></a>
+                <span class="view-more">
+                 <a href="https://floowtv.github.io/app/collections/latest-shows/2" title="view-more">View All</a>
+                </span>
+              </div>
+              <div class="video-shows-carousel owl-carousel">
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/the-lord-of-the-rings-the-rings-of-power/18" title="The Lord of the Rings: The Rings of Power">
+                     <div class="video-img"> 
+                                            <span class="video-item-content">The Lord of the Rings: The Rings of Power</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Rings-of-power.jpg" alt="The Lord of the Rings: The Rings of Power" title="The Lord of the Rings: The Rings of Power">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/the-terminal-list/1" title="The Terminal List">
+                     <div class="video-img"> 
+                                                  <div class="vid-lab-premium"><img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium"></div> 
+                                            <span class="video-item-content">The Terminal List</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/TheTerminalList-1.jpg" alt="The Terminal List" title="The Terminal List">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/obi-wan-kenobi/10" title="Obi Wan Kenobi">
+                     <div class="video-img"> 
+                                            <span class="video-item-content">Obi Wan Kenobi</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Obi-Wan-Kenobi.jpg" alt="Obi Wan Kenobi" title="Obi Wan Kenobi">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/rudra-the-edge-of-darkness/12" title="Rudra: The Edge of Darkness">
+                     <div class="video-img"> 
+                                            <span class="video-item-content">Rudra: The Edge of Darkness</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/89886842.jpg" alt="Rudra: The Edge of Darkness" title="Rudra: The Edge of Darkness">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/criminal-justice-behind-closed-doors/20" title="Criminal Justice: Behind Closed Doors">
+                     <div class="video-img"> 
+                                            <span class="video-item-content">Criminal Justice: Behind Closed Doors</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Criminal_Justice.jpg" alt="Criminal Justice: Behind Closed Doors" title="Criminal Justice: Behind Closed Doors">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/guilty-minds/11" title="Guilty Minds">
+                     <div class="video-img"> 
+                                                  <div class="vid-lab-premium"><img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium"></div> 
+                                            <span class="video-item-content">Guilty Minds</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Guilty-Minds-Amazon-Prime.jpg" alt="Guilty Minds" title="Guilty Minds">         
+                     </div>       
+                  </a>
+                </div>
+                             
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Latest Shows Video Section --> 
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+  
+      
+      
+      
+      
+      
+      
+
+      
+      
+        <!-- Start Sports Video Section -->
+        <div class="video-shows-section sport-video-block vfx-item-ptb">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="vfx-item-section">
+                <a href="https://floowtv.github.io/app/collections/best-in-sports/3" title="Best in Sports"><h3>Best in Sports</h3></a>
+                <span class="view-more">
+                 <a href="https://floowtv.github.io/app/collections/best-in-sports/3" title="view-more">View All</a>
+                </span>
+              </div>
+
+                <div class="tv-season-video-carousel owl-carousel">
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/sports/details/highlights-wrestling-day-9/7" title="Highlights: Wrestling, Day 9">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Highlights: Wrestling, Day 9</span>
+                          <img src="https://floowtv.github.io/app/upload/images/PTI07_31_2022_000281B_0_1200x768.jpg" alt="Highlights: Wrestling, Day 9" title="Highlights: Wrestling, Day 9" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/sports/details/lamborghini-race-cars-ultimte-guide-full-list/5" title="Lamborghini Race Cars Ultimte Guide &amp; Full List">
+                         <div class="video-img">       
+                                                        <div class="vid-lab-premium"><img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium"></div> 
+                               
+                          <span class="video-item-content">Lamborghini Race Cars Ultimte Guide &amp; Full List</span>
+                          <img src="https://floowtv.github.io/app/upload/images/Lamborghini-Race-Cars.jpg" alt="Lamborghini Race Cars Ultimte Guide &amp; Full List" title="Lamborghini Race Cars Ultimte Guide &amp; Full List" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/sports/details/archery-olympic-team/4" title="Archery Olympic Team">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Archery Olympic Team</span>
+                          <img src="https://floowtv.github.io/app/upload/images/Team-Canada-Steaphanie.jpg" alt="Archery Olympic Team" title="Archery Olympic Team" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/sports/details/badminton-junior-world-highlights/3" title="Badminton Junior World Highlights">
+                         <div class="video-img">       
+                                                        <div class="vid-lab-premium"><img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium"></div> 
+                               
+                          <span class="video-item-content">Badminton Junior World Highlights</span>
+                          <img src="https://floowtv.github.io/app/upload/images/Badminton.jpg" alt="Badminton Junior World Highlights" title="Badminton Junior World Highlights" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/sports/details/east-bengal-fc-0-1-chennaiyin-fc/2" title="East Bengal FC 0-1 Chennaiyin FC">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">East Bengal FC 0-1 Chennaiyin FC</span>
+                          <img src="https://floowtv.github.io/app/upload/images/East_Bengal_FC.jpg" alt="East Bengal FC 0-1 Chennaiyin FC" title="East Bengal FC 0-1 Chennaiyin FC" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/sports/details/sentetik-cim-hokey-sahasi-nedir/6" title="Sentetik Çim Hokey Sahası Nedir">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Sentetik Çim Hokey Sahası Nedir</span>
+                          <img src="https://floowtv.github.io/app/upload/images/sentetik-cim-hokey-sahasi-nedir.jpg" alt="Sentetik Çim Hokey Sahası Nedir" title="Sentetik Çim Hokey Sahası Nedir" />         
+                         </div>                          
+                      </a>
+                    </div>
+                             
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+       <!-- End Sports Section --> 
+
+      
+      
+
+      
+      
+      
+  
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+        <!-- Start Live TV Video Section -->
+        <div class="video-shows-section live-tv-video-block vfx-item-ptb">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="vfx-item-section">
+                <a href="https://floowtv.github.io/app/collections/live-tv/4" title="Live TV"><h3>Live TV</h3></a>
+                <span class="view-more">
+                 <a href="https://floowtv.github.io/app/collections/live-tv/4" title="view-more">View All</a>
+                </span>
+              </div>
+
+                <div class="tv-season-video-carousel owl-carousel">
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/sony-six/22" title="Sony Six">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Sony Six</span>
+                          <img src="https://floowtv.github.io/app/upload/images/Sony_Six.jpg" alt="Sony Six" title="Sony Six" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/colors-tv/19" title="Colors TV">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Colors TV</span>
+                          <img src="https://floowtv.github.io/app/upload/images/Colors_TV.jpg" alt="Colors TV" title="Colors TV" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/sony-sab/11" title="Sony Sab">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Sony Sab</span>
+                          <img src="https://floowtv.github.io/app/upload/images/Sony_Entertainment_Television.jpg" alt="Sony Sab" title="Sony Sab" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/mtv-music/10" title="MTV Music">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">MTV Music</span>
+                          <img src="https://floowtv.github.io/app/upload/images/MTV_Music_Logo.jpg" alt="MTV Music" title="MTV Music" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/sky-news/8" title="Sky News">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Sky News</span>
+                          <img src="https://floowtv.github.io/app/upload/images/sky-news-logo.jpg" alt="Sky News" title="Sky News" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/aaj-tak/6" title="Aaj Tak">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Aaj Tak</span>
+                          <img src="https://floowtv.github.io/app/upload/images/aaj_tak_live.jpg" alt="Aaj Tak" title="Aaj Tak" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/abp-news/4" title="ABP News">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">ABP News</span>
+                          <img src="https://floowtv.github.io/app/upload/images/abp_hindi.jpg" alt="ABP News" title="ABP News" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/abp-asmita/2" title="ABP Asmita">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">ABP Asmita</span>
+                          <img src="https://floowtv.github.io/app/upload/images/ABP_Asmita.jpg" alt="ABP Asmita" title="ABP Asmita" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/live-tv/1" title="Live Tv">
+                         <div class="video-img">       
+                                                        <div class="vid-lab-premium"><img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium"></div> 
+                               
+                          <span class="video-item-content">Live Tv</span>
+                          <img src="https://floowtv.github.io/app/upload/images/N-NDTV.png" alt="Live Tv" title="Live Tv" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/food-food/25" title="Food Food">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Food Food</span>
+                          <img src="https://floowtv.github.io/app/upload/images/food_food_logo.jpg" alt="Food Food" title="Food Food" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/b4u-music/24" title="B4U Music">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">B4U Music</span>
+                          <img src="https://floowtv.github.io/app/upload/images/b4u_music.jpg" alt="B4U Music" title="B4U Music" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/nat-geo-people/26" title="Nat Geo People">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Nat Geo People</span>
+                          <img src="https://floowtv.github.io/app/upload/images/New_NatGeo.jpg" alt="Nat Geo People" title="Nat Geo People" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/sony-max/17" title="Sony Max">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Sony Max</span>
+                          <img src="https://floowtv.github.io/app/upload/images/Sony_Max_Logo.jpg" alt="Sony Max" title="Sony Max" />         
+                         </div>                          
+                      </a>
+                    </div>
+                                      <div class="single-video">
+                      <a href="https://floowtv.github.io/app/livetv/details/zee-tv/14" title="Zee TV">
+                         <div class="video-img">       
+                               
+                          <span class="video-item-content">Zee TV</span>
+                          <img src="https://floowtv.github.io/app/upload/images/Zee-TV-Logo-2011.jpg" alt="Zee TV" title="Zee TV" />         
+                         </div>                          
+                      </a>
+                    </div>
+                             
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+       <!-- End Live TV Section --> 
+
+      
+      
+  
+      
+            <!-- Start Movies Video Carousel -->
+      <div class="video-carousel-area vfx-item-ptb">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="vfx-item-section">
+                <a href="https://floowtv.github.io/app/collections/popular-movies/5" title="Popular Movies"><h3>Popular Movies</h3></a>
+            <span class="view-more">
+             <a href="https://floowtv.github.io/app/collections/popular-movies/5" title="view-more">View All</a>
+            </span>
+              </div>
+              <div class="video-carousel owl-carousel">
+                
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/bhool-bhulaiyaa-2/41" title="Bhool Bhulaiyaa 2">
+                     <div class="video-img">  
+                                            <span class="video-item-content">Bhool Bhulaiyaa 2</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Bhool_Bhulaiyaa_Small.jpg" alt="Bhool Bhulaiyaa 2" title="Bhool Bhulaiyaa 2">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/major/16" title="Major">
+                     <div class="video-img">  
+                                            <span class="video-item-content">Major</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Major_Small.jpg" alt="Major" title="Major">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/shamshera-quality/13" title="Shamshera (Quality)">
+                     <div class="video-img">  
+                             
+                      <div class="vid-lab-premium">
+                        <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                      </div> 
+                                            <span class="video-item-content">Shamshera (Quality)</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Shamshera_270X390.jpg" alt="Shamshera (Quality)" title="Shamshera (Quality)">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/vr-vikrant-rona/7" title="VR (Vikrant Rona)">
+                     <div class="video-img">  
+                                            <span class="video-item-content">VR (Vikrant Rona)</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/MV5BODUwZmU5MmYtN2UwOS00ZjI1LWE4OTQtNGFmYTllY2JmZjU1XkEyXkFqcGdeQXVyMzU0ODc1MTQ@._V1_SX300.jpg" alt="VR (Vikrant Rona)" title="VR (Vikrant Rona)">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/john-wick-chapter-4/5" title="John Wick: Chapter 4">
+                     <div class="video-img">  
+                             
+                      <div class="vid-lab-premium">
+                        <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                      </div> 
+                                            <span class="video-item-content">John Wick: Chapter 4</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/JohnWick2.jpg" alt="John Wick: Chapter 4" title="John Wick: Chapter 4">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/laal-singh-chaddha/3" title="Laal Singh Chaddha">
+                     <div class="video-img">  
+                             
+                      <div class="vid-lab-premium">
+                        <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                      </div> 
+                                            <span class="video-item-content">Laal Singh Chaddha</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Laal_Singh_Chaddha_270X390.jpg" alt="Laal Singh Chaddha" title="Laal Singh Chaddha">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/brahmastra-part-one-shiva/2" title="Brahmastra Part One: Shiva">
+                     <div class="video-img">  
+                             
+                      <div class="vid-lab-premium">
+                        <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                      </div> 
+                                            <span class="video-item-content">Brahmastra Part One: Shiva</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Brahmastra_Part_One_270X390.jpg" alt="Brahmastra Part One: Shiva" title="Brahmastra Part One: Shiva">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/secret-headquarters/40" title="Secret Headquarters">
+                     <div class="video-img">  
+                             
+                      <div class="vid-lab-premium">
+                        <img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium">
+                      </div> 
+                                            <span class="video-item-content">Secret Headquarters</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Secret_Headquarters_Small.jpg" alt="Secret Headquarters" title="Secret Headquarters">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/movies/details/day-shift/37" title="Day Shift">
+                     <div class="video-img">  
+                                            <span class="video-item-content">Day Shift</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Day_Shift_Small.jpg" alt="Day Shift" title="Day Shift">         
+                     </div>       
+                  </a>
+                </div>
+                
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Latest Movies Video Carousel -->
+      
+      
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+  
+      
+      
+      
+      
+            <!-- Start Latest Shows Video Section -->
+      <div class="video-shows-section vfx-item-ptb">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="vfx-item-section">
+                <a href="https://floowtv.github.io/app/collections/popular-shows/6" title="Popular Shows"><h3>Popular Shows</h3></a>
+                <span class="view-more">
+                 <a href="https://floowtv.github.io/app/collections/popular-shows/6" title="view-more">View All</a>
+                </span>
+              </div>
+              <div class="video-shows-carousel owl-carousel">
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/aashram/3" title="Aashram">
+                     <div class="video-img"> 
+                                            <span class="video-item-content">Aashram</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Aashram.jpg" alt="Aashram" title="Aashram">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/the-terminal-list/1" title="The Terminal List">
+                     <div class="video-img"> 
+                                                  <div class="vid-lab-premium"><img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium"></div> 
+                                            <span class="video-item-content">The Terminal List</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/TheTerminalList-1.jpg" alt="The Terminal List" title="The Terminal List">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/stranger-things/4" title="Stranger Things">
+                     <div class="video-img"> 
+                                            <span class="video-item-content">Stranger Things</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/stranger-things-1.jpg" alt="Stranger Things" title="Stranger Things">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/obi-wan-kenobi/10" title="Obi Wan Kenobi">
+                     <div class="video-img"> 
+                                            <span class="video-item-content">Obi Wan Kenobi</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Obi-Wan-Kenobi.jpg" alt="Obi Wan Kenobi" title="Obi Wan Kenobi">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/the-lord-of-the-rings-the-rings-of-power/18" title="The Lord of the Rings: The Rings of Power">
+                     <div class="video-img"> 
+                                            <span class="video-item-content">The Lord of the Rings: The Rings of Power</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/Rings-of-power.jpg" alt="The Lord of the Rings: The Rings of Power" title="The Lord of the Rings: The Rings of Power">         
+                     </div>       
+                  </a>
+                </div>
+                                <div class="single-video">
+                    <a href="https://floowtv.github.io/app/shows/details/the-family-man/19" title="The Family Man">
+                     <div class="video-img"> 
+                                                  <div class="vid-lab-premium"><img src="https://floowtv.github.io/app/site_assets/images/ic-premium.png" alt="ic-premium" title="ic-premium"></div> 
+                                            <span class="video-item-content">The Family Man</span> 
+                      <img src="https://floowtv.github.io/app/upload/images/The-Family-Man.jpg" alt="The Family Man" title="The Family Man">         
+                     </div>       
+                  </a>
+                </div>
+                             
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Latest Shows Video Section --> 
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    
+ 
+   
+
+
+    <!-- Start Footer Area -->
+<footer>
+  <div class="footer-area vfx-item-ptb">
+    <div class="footer-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+            <div class="footer-bottom">
+        <div class="footer-links">
+          <ul>
+                          <li><a href="https://floowtv.github.io/app/page/about-us" title="About Us">About Us</a></li>
+                          <li><a href="https://floowtv.github.io/app/page/terms-of-use" title="Terms Of Use">Terms Of Use</a></li>
+                          <li><a href="https://floowtv.github.io/app/page/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
+                          <li><a href="https://floowtv.github.io/app/page/faq" title="FAQ">FAQ</a></li>
+                          <li><a href="https://floowtv.github.io/app/page/contact-us" title="Contact Us">Contact Us</a></li>
+                           
+           
+          </ul>
+        </div>
+        <div class="copyright-text">
+          <p>Copyright © 2022 www.viaviweb.com All Rights Reserved.</p>
+        </div>
+      </div>
+          </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="single-footer">
+              <div class="footer-heading-wrap">
+                <h3 class="footer-heading">Connect with us</h3>
+              </div>
+              <div class="social-links">
+                <ul>
+                  <li><a href="https://www.facebook.com/viaviweb/" title="facebook"><i class="ion-social-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/viaviwebtech/" title="twitter"><i class="ion-social-twitter"></i></a></li>
+                  <li><a href="https://www.instagram.com/viaviwebtech/" title="instagram"><i class="ion-social-instagram"></i></a></li>
+ 
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="single-footer">
+              <div class="footer-heading-wrap">
+                <h3 class="footer-heading">Apps</h3>
+              </div>
+              <div class="download-app-link-item"> 
+                  
+                <a class="google-play-download" href="https://play.google.com/store/apps/dev?id=7157478532572017100" target="_blank" title="Google Play"><img src="https://floowtv.github.io/app/site_assets/images/google-play.png" alt="Google Play Download" title="Google Play Download"></a> 
+                
+                  
+                <a class="apple-store-download" href="https://apps.apple.com/in/developer/vishal-pamar/id1141291247" target="_blank" title="Apple Store"><img src="https://floowtv.github.io/app/site_assets/images/app-store.png" alt="Apple Store Download" title="Apple Store Download"></a>
+                 
+              </div>
+            </div>
+          </div>         
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  <!-- Start Scroll Top Area -->
+  <div class="scroll-top">
+    <div class="scroll-icon"> <i class="fa fa-angle-up"></i> </div>
+  </div>
+  <!-- End Scroll Top Area -->  
+  
+</footer>
+<!-- End Footer Area --> 
+
+<div id="popup1" class="popup-view popup-overlay">
+  <div class="search">
+    <div class="search-container has-results"><span class="title">Search</span>
+      <div class="search-input">
+        <input type="text" name="s" id="search_box" class="search-container-input" placeholder="Title" onkeyup="showSuggestions(this.value)" style="background: #000000;">
+      </div>
+    </div>
+    <div class="search-results mt-4" id="search_output">
+        
+ 
+    </div>
+  </div>
+  <a class="close" href="#" title="close"><i class="ion-close-round"></i></a>
+</div>     
+
+<!-- Start Styles Switcher -->
+<div id="styles-switcher" class="left">
+  <h2 class="text-3">Color Switcher</h2>
+  <ul>
+    <li class="aqua" data-bs-toggle="tooltip" data-path="https://floowtv.github.io/app/site_assets/css/color-style/style-one.css" aria-label="Aqua"></li>    
+    <li class="green" data-bs-toggle="tooltip" data-path="https://floowtv.github.io/app/site_assets/css/color-style/style-two.css" aria-label="Green"></li>
+    <li class="blue" data-bs-toggle="tooltip" data-path="https://floowtv.github.io/app/site_assets/css/color-style/style-three.css" aria-label="Blue"></li>
+    <li class="orange" data-bs-toggle="tooltip" data-path="https://floowtv.github.io/app/site_assets/css/color-style/style-four.css" aria-label="Orange"></li>
+    <li class="poolgreen" data-bs-toggle="tooltip" data-path="https://floowtv.github.io/app/site_assets/css/color-style/style-five.css" aria-label="Poolgreen"></li> 
+    <li class="red" data-bs-toggle="tooltip" data-path="https://floowtv.github.io/app/site_assets/css/color-style/style-six.css" aria-label="Red"></li>  
+  </ul>
+  <button class="btn switcher-toggle"><i class="fas fa-cog fa-spin"></i></button>
+</div>
+<!-- End Styles Switcher -->
+
+<div class="eupopup eupopup-bottom"></div>
+
+  
+  <!-- Load Local JS --> 
+<script src="https://floowtv.github.io/app/site_assets/js/jquery-3.3.1.min.js"></script> 
+<script src="https://floowtv.github.io/app/site_assets/js/jquery.easing.min.js"></script> 
+<script src="https://floowtv.github.io/app/site_assets/js/bootstrap.min.js"></script> 
+<script src="https://floowtv.github.io/app/site_assets/js/owl.carousel.min.js"></script>
+<script src="https://floowtv.github.io/app/site_assets/js/jquery.nice-select.min.js"></script>  
+<script src="https://floowtv.github.io/app/site_assets/js/megamenu.js"></script> 
+
+
+<script src="https://floowtv.github.io/app/site_assets/js/switcher.min.js"></script>  
+ 
+<!-- Splide Slider JS -->
+<script src="https://floowtv.github.io/app/site_assets/js/splide.min.js"></script>
+
+<!-- Custom Main JS -->
+<script src="https://floowtv.github.io/app/site_assets/js/custom-main.js"></script>
+
+<script src="https://floowtv.github.io/app/site_assets/js/jquery-eu-cookie-law-popup.js"></script> 
+
+<script type="text/javascript">
+  
+  $(document).ready( function() {
+  if ($(".eupopup").length > 0) {
+    $(document).euCookieLawPopup().init({
+       'cookiePolicyUrl' : '#',
+       'buttonContinueTitle' : 'Continue',
+       'buttonLearnmoreTitle' : 'Learn more',
+       'popupPosition' : 'bottom',
+       'colorStyle' : 'default',
+       'compactStyle' : false,
+       'popupTitle' : 'This website is using cookies',
+       'popupText' : 'We use them to give you the best experience. If you continue using our website, we&#039;ll assume that you are happy to receive all cookies on this website.'
+    });
+  }
+});
+
+function showSuggestions(inputString) {
+  if(inputString.length <= 1){
+    //document.getElementById('search_output').innerHTML = 'Search field empty!';
+    document.getElementById('search_output').innerHTML = '';
+  }else{
+    $.ajax({
+      url: "https://floowtv.github.io/app/search_elastic",
+      method:"GET",
+      data: { 's' : inputString},
+      dataType:'text',
+      beforeSend: function(){
+      $("#search_box").css("background","#000000 url(https://floowtv.github.io/app/site_assets/images/LoaderIcon.gif) no-repeat 100%");
+      },
+      success: function(result){
+        //alert(result);
+          //$("#search_output").html = result;
+          $("#search_output").html(result);
+          $("#search_box").css("background","#000000");
+        }
+    });
+  }
+}  
+
+
+
+ $('#trailer_model_button').on('click', function(e) {
+    
+    player.pause();
+
+});
+
+  $('#close_trailer_pop').on('click', function(e) {
+    
+     player_trailer.pause();
+     
+});
+
+</script>
+
+<script type="text/javascript">
+  
+  $("li[data-path]").click(function() {
+ 
+    $("head link#theme").attr("href", $(this).data("path"));
+});
+
+</script>
+   
+
+
+ <script type="text/javascript">
+        $( window ).on( "load", function() {
+          document.onkeydown = function(e) {
+            if(e.keyCode == 123) {
+              return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+              return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+              return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+              return false;
+            }
+
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+              return false;
+            }      
+          };
+
+          $("html").on("contextmenu",function(){
+            return false;
+          });
+        });
+      </script>
+
+</body>
+</html>
